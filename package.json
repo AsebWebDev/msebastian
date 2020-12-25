@@ -11,10 +11,10 @@
     "@testing-library/user-event": "^12.6.0",
     "express": "^4.17.1",
     "ignore-styles": "^5.0.1",
+    "node-sass": "4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
-    "scss": "^0.2.4",
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^2.0.1",
     "web-vitals": "^1.0.1"
