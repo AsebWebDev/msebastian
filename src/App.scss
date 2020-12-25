@@ -1,0 +1,30 @@
+#main {
+  color: black;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 20%;
+  padding-left: 50%;
+}
+
+#header {
+  color: white;
+  line-height: 0.9;
+  margin-left: 10%;
+}
+
+.ui.segment {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.ui.grid {
+  margin: 0;
+}
+
+.column {
+  padding: 0 !important;
+}
+
+.sidebar.vertical {
+  padding-top: 66px;
+}
