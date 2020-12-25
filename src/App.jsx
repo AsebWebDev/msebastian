@@ -1,16 +1,14 @@
 import React, { useState } from 'react';
 import {
-  Checkbox,
   Grid,
   Header,
   Icon,
-  Image,
   Menu,
   Segment,
   Sidebar,
-  Sticky,
 } from 'semantic-ui-react'
 import './App.scss'
+import MainContent from './components/MainContent/MainContent';
 
 function App() {
   const [sidebarVisible, setSidebarVisible] = useState(false)
@@ -37,7 +35,6 @@ function App() {
             </div> 
             <Header id="header" as='h1'>Dr. Marcel Sebastian</Header>
           </Sidebar>
-          <p>test</p>
         </Grid.Column>
       {/* </Sticky> */}
         <Grid.Column>
@@ -53,21 +50,21 @@ function App() {
               width='thin'
             >
               <Menu.Item as='a'>
-                <Icon name='home' />
-                Home
+                <Icon name='info circle' />
+                Über mich
               </Menu.Item>
               <Menu.Item as='a'>
-                <Icon name='gamepad' />
-                Games
+                <Icon name='book' />
+                Publikationen
               </Menu.Item>
               <Menu.Item as='a'>
-                <Icon name='camera' />
-                Channels
+                <Icon name='star' />
+                Auftritte
               </Menu.Item>
             </Sidebar>
 
             <Sidebar.Pusher dimmed={sidebarVisible}>
-                <div id="main">Main</div>
+                <MainContent />
             </Sidebar.Pusher>
           </Sidebar.Pushable>
         </Grid.Column>
