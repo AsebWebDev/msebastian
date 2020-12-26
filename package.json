@@ -11,7 +11,6 @@
     "@testing-library/user-event": "^12.6.0",
     "express": "^4.17.1",
     "ignore-styles": "^5.0.1",
-    "node-sass": "4.14.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
@@ -46,6 +45,7 @@
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "sass": "^1.30.0"
   }
 }
