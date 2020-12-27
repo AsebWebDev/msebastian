@@ -32,8 +32,11 @@ function App() {
                 <Icon name='home' />
                 Home
               </Menu.Item>
-            </div> 
-            <Header id="header" as='h1'>Dr. Marcel Sebastian</Header>
+            </div>
+            <div flex >
+            <Header id="header1" as='h1'>Dr. Marcel Sebastian</Header>
+            <Header id="header2" as='h3'>Soziologe – Autor – Public Speaker</Header>
+            </div>
           </Sidebar>
         </Grid.Column>
       {/* </Sticky> */}

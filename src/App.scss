@@ -1,3 +1,6 @@
+// Utilities
+@import "./utilities/variables";
+
 #main {
   color: black;
   height: 100vh;
@@ -6,10 +9,10 @@
   padding-left: 50%;
 }
 
-#header {
+#header1, #header2{
   color: white;
-  line-height: 0.9;
-  margin-left: 10%;
+  margin: 0.3rem 0 0 1rem;
+  width: 100%;
 }
 
 .ui.segment {
@@ -26,5 +29,11 @@
 }
 
 .sidebar.vertical {
-  padding-top: 66px;
+  padding-top: 100px;
+}
+
+@include lg {
+  #header1, #header2 {
+    margin-left: 20rem;
+  }
 }
