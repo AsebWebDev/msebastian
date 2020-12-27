@@ -14,8 +14,7 @@ function App() {
   const [sidebarVisible, setSidebarVisible] = useState(false)
 
   return (
-
-    <Grid columns={1}>
+    <Grid columns={1} id="App">
       {/* <Sticky > */}
         <Grid.Column>
           <Sidebar
