@@ -1,12 +1,5 @@
 import React from 'react'
-import {
-    Grid,
-    Header,
-    Icon,
-    Menu,
-    Segment,
-    Sidebar,
-  } from 'semantic-ui-react'
+import './MainContent.scss'
   
   export default function MainContent() {
     return (
