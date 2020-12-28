@@ -55,13 +55,21 @@ function App() {
                 <Icon name='info circle' />
                 Über mich
               </Menu.Item>
-              <Menu.Item as='a'>
+              <Menu.Item as='a' href="/publications">
                 <Icon name='book' />
                 Publikationen
               </Menu.Item>
-              <Menu.Item as='a'>
+              <Menu.Item as='a' href="/lectures">
                 <Icon name='star' />
-                Auftritte
+                Vorträge
+              </Menu.Item>
+              <Menu.Item as='a' href="/press">
+                <Icon name='star' />
+                Presse
+              </Menu.Item>
+              <Menu.Item as='a' href="/workshopsandcounselling">
+                <Icon name='star' />
+                Workshops & Beratung
               </Menu.Item>
             </Sidebar>
 
