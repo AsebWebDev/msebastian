@@ -51,7 +51,7 @@ function App() {
               visible={sidebarVisible}
               width='thin'
             >
-              <Menu.Item as='a'>
+              <Menu.Item as='a' href="/aboutme">
                 <Icon name='info circle' />
                 Über mich
               </Menu.Item>
