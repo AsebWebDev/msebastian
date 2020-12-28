@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom';
 import './MainContent.scss'
-import AboutMe from './AboutMe/AboutMe'
+import AboutMe from './AboutMe/Index'
 import Publications from './Publications/Publications'
 import Lectures from './Lectures/Lectures'
 import Press from './Press/Press'

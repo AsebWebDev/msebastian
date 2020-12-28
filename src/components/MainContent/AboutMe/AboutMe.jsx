@@ -1,13 +1,11 @@
-import React from "react";
-import { Container, Header } from "semantic-ui-react";
-import cvText from '../../../texts/cv'
-import "./AboutMe.scss";
+import React from 'react'
+import t from '../../../utilities/translation'
 
-export default function CV() {
-  return (
-    <Container text id="aboutme">
-      <Header as='h1'>Curriculum Vitae</Header>
-      <p>{cvText}</p>
-    </Container>
-  );
+export default function AboutMe() {
+    return (
+        <>
+            <h1>{t('de', 'ABOUT_ME_TITLE')}</h1>
+            <p>{t('de', 'ABOUT_ME_SUMMARY')}</p>
+        </>
+    )
 }
