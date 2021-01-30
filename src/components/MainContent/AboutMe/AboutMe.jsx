@@ -1,4 +1,3 @@
-import React from 'react'
 import t from '../../../utilities/translation'
 
 export default function AboutMe() {
