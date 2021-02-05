@@ -6,7 +6,7 @@ import './Publications.scss'
 export default function Publications() {
     return (
         <Container text id="publications">
-            <Header as='h1'>{t('de', 'PUBLICATIONS_HEADER')}</Header>
+            <Header as='h1'>{t('de', 'PUBLICATIONS_TITLE')}</Header>
             
             {/* Artikel in Fachzeitschriften */}
 

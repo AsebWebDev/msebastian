@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import {
   Grid,
   Header,
@@ -7,6 +7,7 @@ import {
   Segment,
   Sidebar,
 } from 'semantic-ui-react'
+import t from "./utilities/translation";
 import './App.scss'
 import MainContent from './components/MainContent/MainContent';
 
@@ -29,7 +30,7 @@ function App() {
             <div onClick={() => setSidebarVisible(!sidebarVisible)}>
               <Menu.Item as='a'>
                 <Icon name='home' />
-                Home
+                {t('de', "MENUE")}
               </Menu.Item>
             </div>
             <div flex >
@@ -53,23 +54,23 @@ function App() {
             >
               <Menu.Item as='a' href="/aboutme">
                 <Icon name='info circle' />
-                Über mich
+                {t('de', "ABOUT_ME_TITLE")}
               </Menu.Item>
               <Menu.Item as='a' href="/publications">
                 <Icon name='book' />
-                Publikationen
+                {t('de', "PUBLICATIONS_TITLE")}
               </Menu.Item>
               <Menu.Item as='a' href="/lectures">
                 <Icon name='star' />
-                Vorträge
+                {t('de', "LECTURES_TITLE")}
               </Menu.Item>
               <Menu.Item as='a' href="/press">
                 <Icon name='star' />
-                Presse
+                {t('de', "PRESS_TITLE")}
               </Menu.Item>
               <Menu.Item as='a' href="/workshopsandcounselling">
                 <Icon name='star' />
-                Workshops & Beratung
+                {t('de', "WORKSHOPANDCOUNSELLING_TITLE")}
               </Menu.Item>
             </Sidebar>
 

@@ -1,7 +1,13 @@
 const dict = {
   de : {
     // ===================================================================
-    // ABOUT ME
+    // Miscellaneous
+    // ===================================================================
+
+    "MENUE": `Menü`,
+
+    // ===================================================================
+    // A B O U T  M E
     // ===================================================================
 
     "ABOUT_ME_TITLE" : `Über mich`,
@@ -28,9 +34,9 @@ const dict = {
     "CV_1_TITLE" : `Magister Soziologie (1,0, ausgezeichnet)`,
     "CV_1" : `Nebenfächer: Gender Studies, Sozial- und Wirtschaftsgeschichte, Magisterarbeit “Ambivalenzen der Arbeitssituation und Umgangsweisen von Arbeitern in der Fleischindustrie“`,
 
-    // ===================================================================
+    // =======================================
     // MEMBERSHIP
-    // ===================================================================
+    // =======================================
     
     "MEMBERSHIP_TITLE" :  `Mitgliedschaft in wissenschaftlichen Organisationen`,
     "MEMBERSHIP_5" :      `Transformationskolleg des Norbert-Elias-Center, Europa Universität Flensburg`,
@@ -39,9 +45,9 @@ const dict = {
     "MEMBERSHIP_2" :      `Minding Animals International`,
     "MEMBERSHIP_1" :      `Interdisciplinary Centre for European Studies (ICES), Europa Universität Flensburg`,
 
-    // ===================================================================
+    // ========================================
     // EXPERT OPINIONS
-    // ===================================================================
+    // ========================================
 
     "EXPERT_OPINION_TITLE" : `Gutachtertätigkeiten`,
     "EXPERT_OPINION_3" :     `Psychosozial (2019)`,
@@ -49,10 +55,10 @@ const dict = {
     "EXPERT_OPINION_1" :     `Incipiens – Zeitschrift für Erstpublikationen aus der Philosophie und ihrer Geschichte (2016)`,
 
     // ===================================================================
-    // PUBLICATIONS
+    // P U B L I C A T I O N S
     // ===================================================================
 
-    "PUBLICATIONS_HEADER":   `Publikationen`,
+    "PUBLICATIONS_TITLE":   `Publikationen`,
         
       // Artikel in Fachzeitschriften
 
@@ -119,6 +125,94 @@ const dict = {
     "PUBLICATIONS_4_TITLE_2":   `Spurensuche (Rezension zu Rude, Matthias: Antispeziesismus), in: Tierstudien 05/2014, S. 191-193.`,
     "PUBLICATIONS_4_AUTHOR_3":  `Sebastian, Marcel (2012)`,
     "PUBLICATIONS_4_TITLE_3":   `'Eating Meat. The Social Relationship of Humans and Animals and the Meaning of Meat.' Conference Organized by the Group for Society and Animals Studies at the University of Hamburg, July 2011, in: Journal for Critical Animal Studies, Vol. 10, Issue 1, pp. 160-162.`, 
+  
+    // ===================================================================
+    // L E C T U R E S
+    // ===================================================================
+
+    "LECTURES_TITLE" : `Vorträge`,
+
+    // Vorträge auf wissenschaftlichen Tagungen
+    "LECTURES_1_TITLE_1":         `„Mensch-Tier-Beziehungen zwischen Sorge und Kontrolle“ Präsentation im Rahmen der Ad-Hoc-Gruppe „Die ökologische Gesellschaft unter Spannung: Sorgediskurse im 'Anthropozän'“ auf dem 40. Kongress der Deutschen Gesellschaft für Soziologie,`,
+    "LECTURES_1_DATEANDVENUE_1":  `21.09.2020, digitaler Kongress.`,
+    "LECTURES_1_TITLE_2":         `„Kultureller Wandel in der Fleischproduktion: Wie Schlachthofarbeiter mit moralischer Stigmatisierung ihrer Arbeit umgehen“, Präsentation im Rahmen der Sektionsveranstaltung der DGS-Sektion ‚Umweltsoziologie‘ „Arbeit in der sozial-ökologischen Transformation – eine Herausforderung für die Umweltsoziologie?“ auf dem 40. Kongress der Deutschen Gesellschaft für Soziologie,`,
+    "LECTURES_1_DATEANDVENUE_2":  `16.09.2020, digitaler Kongress.`,
+    "LECTURES_1_TITLE_3":         `„“Wie lassen sich Unterschiede zwischen Schlachthofarbeitern im Umgang mit dem Töten von Tieren erklären?”, Präsentation im Rahmen des Minding Animals Germany Symposium Vienna,`,
+    "LECTURES_1_DATEANDVENUE_3":  `7.10.2018, Messerli Forschungsinstitut, Vetmeduni Wien.`,
+    "LECTURES_1_TITLE_4":         `„Umgangsweisen von Schlachthofarbeitern mit dem Töten von Tieren“, Präsentation im Rahmen der Ad-Hoc Gruppe „Kultureller Wandel und Ambivalenzen im Mensch-Tier-Verhältnis“ auf dem 39. Kongress der Deutschen Gesellschaft für Soziologie, `,
+    "LECTURES_1_DATEANDVENUE_4":  `26.09.2018, Universität Göttingen.`,
+    "LECTURES_1_TITLE_5":         `“Vegane Schlachter? - Wie lassen sich die Unterschiede zwischen Fleischunternehmen hinsichtlich der Offenheit zur Aufnahme vegetarischer Produkten erklären?“, Präsentation im Rahmen der Sektionsveranstaltung der DGS-Sektion ‚Land-, Agrar- und Ernährungssoziologie‘ „Aktuelle gesellschaftliche Debatten zur sozial-ökologischen Transformation des Ernährungs- und Agrarsystems“ auf dem 39. Kongress der Deutschen Gesellschaft für Soziologie,`,
+    "LECTURES_1_DATEANDVENUE_5":  `25.09.2018, Universität Göttingen.`,
+    "LECTURES_1_TITLE_6":         `„How do Slaughterhouse Workers Handle the Killing of Animals?“, Präsentation im Rahmen der International PhD Conference and Expert Seminar of ESPAnet 2018 New Trends in the Development of Work - Family Policies, Gender and Care - Causes, Dynamics and Consequences”,`,
+    "LECTURES_1_DATEANDVENUE_6":  `Universität Hamburg, 21.03.2018.`,
+    "LECTURES_1_TITLE_7":         `Teilnahme an Podiumsdiskussion “Animals and the Law I - How Animal Law Relates to Animal Rights and Protection: An International Movement“, im Rahmen der Minding Animal Conference 2018,`,
+    "LECTURES_1_DATEANDVENUE_7":  `Mexico City 18.01.2018`,
+    "LECTURES_1_TITLE_8":         `“Pandora’s Box – Why the prohibition of dog slaughter in Germany took over 30 Years of political debate“, im Rahmen der Minding Animal Conference 2018, `,
+    "LECTURES_1_DATEANDVENUE_8":  `Mexico City, 24.01.2018.`,
+    "LECTURES_1_TITLE_9":         `„Das ist doch eine ganz normale Arbeit!" Sichtweisen von Schlachthofarbeitern auf ihre Arbeit“, im Rahmen der Tagung „Fleisch. Vom Wohlstandssymbol zur Gefahr für die Zukunft“ der Sektion Land- und Agrarsoziologie der Deutschen Gesellschaft für Soziologie,`,
+    "LECTURES_1_DATEANDVENUE_9":  `Hochschule Fulda, 6.-7.11.2015`,
+    "LECTURES_1_TITLE_10":         `"Sociological Research on Violence against Animals“, im Rahmen der „ICAS Oceania 2015 Conference 'Conflict & Struggle, Resistance & Change' ”,`,
+    "LECTURES_1_DATEANDVENUE_10":  `Trades Hall, Melbourne, 11.7.2015`,
+    "LECTURES_1_TITLE_11":         `„Ambivalenzen der Arbeitssituation und Umgangsweisen von Schlachthofarbeitern“, im Rahmen der Konferenz „Ökonomien tierischer Produktion Mensch-Nutztier-Beziehungen in industriellen Kontexten“,`,
+    "LECTURES_1_DATEANDVENUE_11":  `Universität Wien, 30.5.2015`,
+    "LECTURES_1_TITLE_12":         `"Das Mensch-Tier-Verhältnis in der Kritischen Theorie der Frankfurter Schule" (zusammen mit Julia Gutjahr), im Rahmen der Konferenz "Animal Politics. Politische Theorie des Mensch-Tier-Verhältnisses (Frühjahrstagung der Sektion für Politische Theorie und Ideengeschichte in der DVPW),`,
+    "LECTURES_1_DATEANDVENUE_12":  `Universität Hamburg, 13.3.2014`,
+    "LECTURES_1_TITLE_13":         `„Coping with violence: Working in the meat industry" im Rahmen der 3rd European Conference for Critical Animal Studies,`,
+    "LECTURES_1_DATEANDVENUE_13":  `Universität Karlsruhe, 29.11.2013`,
+    "LECTURES_1_TITLE_14":         `"Ambivalenzen der Arbeitssituation und Umgangsweisen von Schlachthofarbeitern" im Rahmen des Herbstsymposium der Sektion Land- und Agrarsoziologie der Deutschen Gesellschaft für Soziologie,`,
+    "LECTURES_1_DATEANDVENUE_14":  `Universität Gießen, 9.11.2013`,
+    "LECTURES_1_TITLE_15":         `„Coping with Violence: Working in the Meat-Industry“, auf dem 36. Kongress der Deutschen Gesellschaft für Soziologie, Ad-Hoc-Gruppe „Society and Animals. Sociological Analyses of an Ambivalent Relationship“,`,
+    "LECTURES_1_DATEANDVENUE_15":  `Universität Bochum, 5.10. 2012`,
+    "LECTURES_1_TITLE_16":         `„The Problem of the Domination of Nature & Animals in the Critical Theory of the Frankfurt School", (Zusammen mit Julia Gutjahr) auf der 2nd Annual European Conference for Critical Animal Studies “Reconfiguring the ‘Human’/’Animal’ Binary“,`,
+    "LECTURES_1_DATEANDVENUE_16":  `Universität Prag, 16.10.2011`,
+    "LECTURES_1_TITLE_17":         `“How is it possible to explain people's indifference towards the violence against animals?” Auf der 2nd Annual European Conference for Critical Animal Studies “Reconfiguring the ‘Human’/’Animal’ Binary“, `,
+    "LECTURES_1_DATEANDVENUE_17":  `Universität Prag, 15.10.2011`,
+    "LECTURES_1_TITLE_18":         `„Fleisch und die gesellschaftliche Genese der Indifferenz gegenüber der Gewalt an Tieren“ im Rahmen der Konferenz "Fleisch Essen. Das gesellschaftliche Mensch-Tier-Verhältnis und die Bedeutung von Fleisch" der GSA, `,
+    "LECTURES_1_DATEANDVENUE_18":  `Universität Hamburg, 1.7.2011`,
+    "LECTURES_1_TITLE_19":         `"How Is It Possible to Explain People's Indifference Towards the Violence Against Animals?" im Rahmen der 10th Annual North American Conference for Critical Animal Studies: “Thinking About Animals”, `,
+    "LECTURES_1_DATEANDVENUE_19":  `Brock University, St. Catharines, Kanada, 1.4.2011`,
+    "LECTURES_1_TITLE_20":         `"The Problem of the Domination of Nature & Animals in the Critical Theory of the Frankfurt School" (Zusammen mit Julia Gutjahr) im Rahmen der 10th Annual North American Conference for Critical Animal Studies: “Thinking About Animals”, `,
+    "LECTURES_1_DATEANDVENUE_20":  `Brock University, St. Catharines, Kanada, 31.3.2011`,
+
+    // Vorträgen auf Einladung wissenschaftlicher Organisationen
+    "LECTURES_2_TITLE_1":         `“Wie Schlachthofarbeiter mit dem Töten von Tieren umgehen – soziologische Perspektiven auf den Schlachthof als Arbeitsplatz”, Vortrag auf Einladung im neuzeitlichen Forschungskolloquium am Fachbereich Gesellschaftswissenschaften, `,
+    "LECTURES_2_DATEANDVENUE_1":  `11.02.2019, Universität Kassel.`,
+    "LECTURES_2_TITLE_2":         `“Umgangsweisen von Schlachthofarbeitern mit dem Töten von Tieren”, Vortrag auf Einladung der Münchener Tierärztlichen Gesellschaft, `,
+    "LECTURES_2_DATEANDVENUE_2":  `14.11.2018, Ludwig-Maximilians-Universität München.`,
+    "LECTURES_2_TITLE_3":         `“Grundlagen und aktuelle Entwicklungen der Soziologie des Mensch-Tier-Verhältnisses”, Vortrag auf Einladung der interdisziplinären Forschungsgruppe zum Mensch-Tier-Verhältnis (Leitung: Prof. Rüdiger Korbel, Vogelklinik München und Prof. Nicole Saam, FAU Erlangen), `,
+    "LECTURES_2_DATEANDVENUE_3":  `14.11.2018, Ludwig-Maximilians-Universität München.`,
+    "LECTURES_2_TITLE_4":         `“Grundlagen und aktuelle Entwicklungen der Soziologie des Mensch-Tier-Verhältnisses“, Vortrag auf Einladung im Oberseminar des Institut für Soziololgie, `,
+    "LECTURES_2_DATEANDVENUE_4":  `8.5.2018, FAU Erlangen.`,
+    "LECTURES_2_TITLE_5":         `„Jemand oder etwas? – Soziologische Analysen zur Ambivalenz der Mensch-Tier-Beziehung“, invited Lecture im Rahmen des Symposiums „Tiere als Akteure und Material in der zeitgenössischen Kunst“, `,
+    "LECTURES_2_DATEANDVENUE_5":  `Museum Schloss Moyland, 3.5.2017.`,
+    "LECTURES_2_TITLE_6":         `„Warum essen wir die einen und streicheln die anderen? Ambivalenzen im Mensch-Tier-Verhältnis“, invited Lecture, `,
+    "LECTURES_2_DATEANDVENUE_6":  `VetMedUni Wien, 17.11.2016.`,
+    "LECTURES_2_TITLE_7":         `„Ambivalente Verhältnisse: Das Mensch-Tier-Verhältnis aus soziologischer Perspektive“, invited Lecture im Rahmen des Symposiums „Networking Animal Lovers“ der Neuen Gesellschaft für bildende Kunst, `,
+    "LECTURES_2_DATEANDVENUE_7":  `Berlin, 4.11.2016`,
+    "LECTURES_2_TITLE_8":         `„Tiere töten“, öffentlicher Vortrag auf Einladung der Pressestelle der Universität Flensburg, `,
+    "LECTURES_2_DATEANDVENUE_8":  `Kühlhaus Flensburg, 24.6.2015.`,
+    "LECTURES_2_TITLE_9":         `„Umgangsstrategien von Schlachthofarbeitern mit dem Töten von Tieren“, Einladung in das Interdisziplinäre Kolloquium der Universität Flensburg, Themenschwerpunkt: Raum und Gesellschaft, `,
+    "LECTURES_2_DATEANDVENUE_9":  `Universität Flensburg 23.6.2015`,
+    "LECTURES_2_TITLE_10":         `„Ambivalente Verhältnisse: Soziologische Perspektiven auf die Mensch-Tier-Beziehung", im Rahmen der Ringvorlesung HumAnimal – Mythos und Realität, `,
+    "LECTURES_2_DATEANDVENUE_10":  `Humboldt-Universität Berlin, 13.12.2013`,
+    "LECTURES_2_TITLE_11":         `„Umgangsweisen von Arbeitern mit Ambivalenzen der Arbeitssituation in Schlachthöfen“, Vortragsveranstaltung der Group for Society and Animals Studies, `,
+    "LECTURES_2_DATEANDVENUE_11":  `Universität Hamburg, 22.7.2013`,
+    "LECTURES_2_TITLE_12":         `„Gewalt gegen Tiere als sozialwissenschaftliches Problem am Beispiel von Mensch-Tier-Beziehungen in der Agrarindustrie“, Ansichten einer Stiftung, Einführungsworkshop für Stipendiaten der Heinrich-Böll-Stiftung, `,
+    "LECTURES_2_DATEANDVENUE_12":  `Berlin, April 2013.`,
+    "LECTURES_2_TITLE_13":         `„Gewalt gegen Tiere als sozialwissenschaftliches Problem am Beispiel von Mensch-Tier-Beziehungen in der Agrarindustrie“, Einladung einer studentischen Arbeitsgruppe zum Mensch-Tier-Verhältnis, `,
+    "LECTURES_2_DATEANDVENUE_13":  `Universität Kiel, 19.11.2012`,
+  
+    // ===================================================================
+    // P R E S S
+    // ===================================================================
+
+    "PRESS_TITLE" : `Presse`,
+
+    // ===================================================================
+    // W O R K S H O P  &  C O U N S E L L I N G 
+    // ===================================================================
+
+    "WORKSHOPANDCOUNSELLING_TITLE" : `Workshop & Beratung`,
   }
 }
 
