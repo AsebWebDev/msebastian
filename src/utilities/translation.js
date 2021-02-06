@@ -133,6 +133,7 @@ const dict = {
     "LECTURES_TITLE" : `Vorträge`,
 
     // Vorträge auf wissenschaftlichen Tagungen
+    "LECTURES_1_TITLE":           `Vorträge auf wissenschaftlichen Tagungen`,
     "LECTURES_1_TITLE_1":         `„Mensch-Tier-Beziehungen zwischen Sorge und Kontrolle“ Präsentation im Rahmen der Ad-Hoc-Gruppe „Die ökologische Gesellschaft unter Spannung: Sorgediskurse im 'Anthropozän'“ auf dem 40. Kongress der Deutschen Gesellschaft für Soziologie,`,
     "LECTURES_1_DATEANDVENUE_1":  `21.09.2020, digitaler Kongress.`,
     "LECTURES_1_TITLE_2":         `„Kultureller Wandel in der Fleischproduktion: Wie Schlachthofarbeiter mit moralischer Stigmatisierung ihrer Arbeit umgehen“, Präsentation im Rahmen der Sektionsveranstaltung der DGS-Sektion ‚Umweltsoziologie‘ „Arbeit in der sozial-ökologischen Transformation – eine Herausforderung für die Umweltsoziologie?“ auf dem 40. Kongress der Deutschen Gesellschaft für Soziologie,`,
@@ -175,6 +176,7 @@ const dict = {
     "LECTURES_1_DATEANDVENUE_20":  `Brock University, St. Catharines, Kanada, 31.3.2011`,
 
     // Vorträgen auf Einladung wissenschaftlicher Organisationen
+    "LECTURES_2_TITLE":           `Vorträgen auf Einladung wissenschaftlicher Organisationen`,
     "LECTURES_2_TITLE_1":         `“Wie Schlachthofarbeiter mit dem Töten von Tieren umgehen – soziologische Perspektiven auf den Schlachthof als Arbeitsplatz”, Vortrag auf Einladung im neuzeitlichen Forschungskolloquium am Fachbereich Gesellschaftswissenschaften, `,
     "LECTURES_2_DATEANDVENUE_1":  `11.02.2019, Universität Kassel.`,
     "LECTURES_2_TITLE_2":         `“Umgangsweisen von Schlachthofarbeitern mit dem Töten von Tieren”, Vortrag auf Einladung der Münchener Tierärztlichen Gesellschaft, `,
