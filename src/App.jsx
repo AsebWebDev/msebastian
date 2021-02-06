@@ -64,14 +64,16 @@ function App() {
                 <Icon name='star' />
                 {t('de', "LECTURES_TITLE")}
               </Menu.Item>
-              <Menu.Item as='a' href="/press">
+              {/* TODO: FOR SECOND RELEASE */}
+              {/* <Menu.Item as='a' href="/press">
                 <Icon name='star' />
                 {t('de', "PRESS_TITLE")}
-              </Menu.Item>
-              <Menu.Item as='a' href="/workshopsandcounselling">
+              </Menu.Item> */}
+              {/* TODO: FOR SECOND RELEASE */}
+              {/* <Menu.Item as='a' href="/workshopsandcounselling">
                 <Icon name='star' />
                 {t('de', "WORKSHOPANDCOUNSELLING_TITLE")}
-              </Menu.Item>
+              </Menu.Item> */}
             </Sidebar>
 
             <Sidebar.Pusher dimmed={sidebarVisible}>
