@@ -1,0 +1,13 @@
+@import "../../../utilities/variables";
+
+#landing-page {
+  height: 100.5vh;
+}
+
+@include lg {
+    #landing-page {
+        background: url('../../../assets/images/screenshot.jpg') no-repeat ;
+        background-size: cover;
+        background-clip: border-box;
+    }
+}

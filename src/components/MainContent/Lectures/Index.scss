@@ -1,0 +1,12 @@
+@import "../../../utilities/variables";
+
+@include lg {
+    #lectures-index {
+        color: white;
+        background: url('../../../assets/images/presentation.jpg') no-repeat;
+        background-size: 100%;
+        background-clip: border-box;
+        background-attachment: fixed;
+        background-position-x: -500px;
+    }
+}

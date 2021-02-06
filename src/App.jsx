@@ -7,35 +7,36 @@ import {
   Segment,
   Sidebar,
 } from 'semantic-ui-react'
-import t from "./utilities/translation";
+import t, {dict} from './utilities/translation';
 import './App.scss'
 import MainContent from './components/MainContent/MainContent';
-
+console.log(dict)
 function App() {
-  const [sidebarVisible, setSidebarVisible] = useState(false)
+  const [sidebarVisible, setSidebarVisible] = useState(true)
 
   return (
-    <Grid columns={1} id="App">
+    <Grid columns={1} id='App'>
       {/* <Sticky > */}
         <Grid.Column>
           <Sidebar
             as={Menu}
-            animation="push"
+            animation='push'
             icon='labeled'
             inverted
-            direction="top"
+            direction='top'
             visible={true}
             width='thin'
           >
-            <div onClick={() => setSidebarVisible(!sidebarVisible)}>
-              <Menu.Item as='a'>
+            {/* <div onClick={() => setSidebarVisible(!sidebarVisible)}> */}
+            <div>
+              <Menu.Item as='a' href='/'>
                 <Icon name='home' />
-                {t('de', "MENUE")}
+                {/* {t('de', 'MISC', 'MENUE')} */}
               </Menu.Item>
             </div>
             <div flex >
-            <Header id="header1" as='h1'>Dr. Marcel Sebastian</Header>
-            <Header id="header2" as='h3'>Soziologe – Autor – Public Speaker</Header>
+            <Header id='header1' as='h1'>Dr. Marcel Sebastian</Header>
+            {/* <Header id='header2' as='h3'>Soziologe – Autor – Public Speaker</Header> */}
             </div>
           </Sidebar>
         </Grid.Column>
@@ -44,39 +45,41 @@ function App() {
           <Sidebar.Pushable as={Segment}>
             <Sidebar
               as={Menu}
-              animation='overlay'
+              // animation='overlay'
               icon='labeled'
               inverted
-              onHide={() => setSidebarVisible(false)}
+              // onHide={() => setSidebarVisible(false)}
               vertical
               visible={sidebarVisible}
               width='thin'
             >
-              <Menu.Item as='a' href="/aboutme">
+              <Menu.Item as='a' href='/aboutme'>
                 <Icon name='info circle' />
-                {t('de', "ABOUT_ME_TITLE")}
+                {t('de', 'ABOUT_ME', 'ABOUT_ME_TITLE')}
               </Menu.Item>
-              <Menu.Item as='a' href="/publications">
+              <Menu.Item as='a' href='/publications'>
                 <Icon name='book' />
-                {t('de', "PUBLICATIONS_TITLE")}
+                {t('de', 'PUBLICATIONS', 'PUBLICATIONS_TITLE')}
               </Menu.Item>
-              <Menu.Item as='a' href="/lectures">
+              <Menu.Item as='a' href='/lectures'>
                 <Icon name='star' />
-                {t('de', "LECTURES_TITLE")}
+                {t('de', 'LECTURES', 'LECTURES_TITLE')}
               </Menu.Item>
               {/* TODO: FOR SECOND RELEASE */}
-              {/* <Menu.Item as='a' href="/press">
+              {/* <Menu.Item as='a' href='/press'>
                 <Icon name='star' />
-                {t('de', "PRESS_TITLE")}
+                {t('de', 'PRESS_TITLE')}
               </Menu.Item> */}
               {/* TODO: FOR SECOND RELEASE */}
-              {/* <Menu.Item as='a' href="/workshopsandcounselling">
+              {/* <Menu.Item as='a' href='/workshopsandcounselling'>
                 <Icon name='star' />
-                {t('de', "WORKSHOPANDCOUNSELLING_TITLE")}
+                {t('de', 'WORKSHOPANDCOUNSELLING_TITLE')}
               </Menu.Item> */}
             </Sidebar>
 
-            <Sidebar.Pusher dimmed={sidebarVisible}>
+            <Sidebar.Pusher 
+              // dimmed={sidebarVisible}
+            >
                 <MainContent />
             </Sidebar.Pusher>
           </Sidebar.Pushable>

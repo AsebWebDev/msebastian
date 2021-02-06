@@ -1,0 +1,11 @@
+@import "../../../utilities/variables";
+
+@include lg {
+    #publication-index {
+        color: white;
+        background: url('../../../assets/images/Jaemtland.jpg') no-repeat;
+        background-size: 100%;
+        background-clip: border-box;
+        background-attachment: fixed;
+    }
+}

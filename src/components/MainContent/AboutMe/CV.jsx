@@ -1,57 +1,34 @@
-import { List, Header } from "semantic-ui-react";
+import { Header, List } from "semantic-ui-react";
 import t from "../../../utilities/translation";
-
-const dot = <List.Icon name='dot circle' />
+import ListItem from '../ListItem'
 
 export default function CV() {
   return (
-    <>
-      <h1>Curriculum Vitae</h1>
-      <List>
-        <List.Item>
-          <List.Header>
-            {t("de", "CV_5_DATE")} - {t("de", "CV_5_TITLE")}
-          </List.Header>
-          {t("de", "CV_5")}
-        </List.Item>
-        <List.Item>
-          <List.Header>
-            {t("de", "CV_4_DATE")} - {t("de", "CV_4_TITLE")}
-          </List.Header>
-        </List.Item>
-        <List.Item>
-          <List.Header>
-            {t("de", "CV_3_DATE")} - {t("de", "CV_3_TITLE")}
-          </List.Header>
-        </List.Item>
-        <List.Item>
-          <List.Header>
-            {t("de", "CV_2_DATE")} - {t("de", "CV_2_TITLE")}
-          </List.Header>
-        </List.Item>
-        <List.Item>
-          <List.Header>
-            {t("de", "CV_1_DATE")} - {t("de", "CV_1_TITLE")}
-          </List.Header>
-          {t("de", "CV_1")}
-        </List.Item>
+    <div className="cv">
+      <Header as='h1'>{t('de', 'CV', 'CV_TITLE')}</Header>
+      <List divided relaxed>
+        <ListItem header={`${t("de", "CV", "CV_5_DATE")} - ${t("de", "CV", "CV_5_TITLE")}`} metaText={`${t("de", "CV", "CV_5")}`}/>
+        <ListItem header={`${t("de", "CV", "CV_4_DATE")} - ${t("de", "CV", "CV_4_TITLE")}`} metaText={`${t("de", "CV", "CV_4")}`}/>
+        <ListItem header={`${t("de", "CV", "CV_3_DATE")} - ${t("de", "CV", "CV_3_TITLE")}`} metaText={`${t("de", "CV", "CV_3")}`}/>
+        <ListItem header={`${t("de", "CV", "CV_2_DATE")} - ${t("de", "CV", "CV_2_TITLE")}`} metaText={`${t("de", "CV", "CV_2")}`}/>
+        <ListItem header={`${t("de", "CV", "CV_1_DATE")} - ${t("de", "CV", "CV_1_TITLE")}`} metaText={`${t("de", "CV", "CV_1")}`}/>
       </List>
 
-      <Header as="h2">{t("de", "MEMBERSHIP_TITLE")}</Header>
+      <Header as="h2">{t("de", "MEMBERSHIP", "MEMBERSHIP_TITLE")}</Header>
       <List>
-        <List.Item>{dot}{t("de", "MEMBERSHIP_5")}</List.Item>
-        <List.Item>{dot}{t("de", "MEMBERSHIP_4")}</List.Item>
-        <List.Item>{dot}{t("de", "MEMBERSHIP_3")}</List.Item>
-        <List.Item>{dot}{t("de", "MEMBERSHIP_2")}</List.Item>
-        <List.Item>{dot}{t("de", "MEMBERSHIP_1")}</List.Item>
+        <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_5")}`}/>
+        <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_4")}`}/>
+        <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_3")}`}/>
+        <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_2")}`}/>
+        <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_1")}`}/>
       </List>
 
-      <Header as="h2">{t("de", "EXPERT_OPINION_TITLE")}</Header>
+      <Header as="h2">{t("de", "EXPERT_OPINION", "EXPERT_OPINION_TITLE")}</Header>
       <List>
-        <List.Item>{dot}{t("de", "EXPERT_OPINION_3")}</List.Item>
-        <List.Item>{dot}{t("de", "EXPERT_OPINION_2")}</List.Item>
-        <List.Item>{dot}{t("de", "EXPERT_OPINION_1")}</List.Item>
+        <ListItem header={`${t("de", "EXPERT_OPINION", "EXPERT_OPINION_3")}`}/>
+        <ListItem header={`${t("de", "EXPERT_OPINION", "EXPERT_OPINION_2")}`}/>
+        <ListItem header={`${t("de", "EXPERT_OPINION", "EXPERT_OPINION_1")}`}/>
       </List>
-    </>
+    </div>
   );
 }

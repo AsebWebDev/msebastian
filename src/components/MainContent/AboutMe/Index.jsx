@@ -1,14 +1,20 @@
 import React from "react";
-import { Container } from "semantic-ui-react";
+import { Grid } from "semantic-ui-react";
 import AboutMe from './AboutMe'
 import CV from './CV'
 import "./Index.scss";
 
 export default function Index() {
   return (
-    <Container text id="aboutme-index">
-      <AboutMe />
-      <CV />
-    </Container>
+    <Grid stackable columns={2} id="aboutme-index">
+      <Grid.Row stretched>
+        <Grid.Column width={6}>
+          <AboutMe />
+        </Grid.Column>
+        <Grid.Column width={10}>
+          <CV />
+        </Grid.Column>
+      </Grid.Row>
+    </Grid>
   );
 }
