@@ -1,6 +1,9 @@
 {
   "name": "msebastian",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "private": true,
   "dependencies": {
     "@babel/preset-env": "^7.12.11",
