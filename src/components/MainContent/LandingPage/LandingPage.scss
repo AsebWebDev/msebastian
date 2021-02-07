@@ -1,10 +1,11 @@
 @import "../../../utilities/variables";
 
 #landing-page {
+  background-color: black;
   height: 100.5vh;
 }
 
-@include lg {
+@include sm {
     #landing-page {
         background: url('../../../assets/images/screenshot.jpg') no-repeat ;
         background-size: cover;

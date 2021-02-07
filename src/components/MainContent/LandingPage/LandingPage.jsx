@@ -1,11 +1,12 @@
-import { Header } from 'semantic-ui-react';
-
+import { Image } from 'semantic-ui-react';
+import { isMobile } from '../../../utilities/helpers'
+import headerPic from '../../../assets/images/header.png'
 import './LandingPage.scss'
 
 function LandingPage() {
     return (
         <div id="landing-page">
-          <Header as='h1'>Marcel Sebastian</Header>
+          <Image src={headerPic} alt="lettering of name" size={isMobile() ? "medium" : "huge"}/>
         </div>
     )
 }

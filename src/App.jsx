@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useLocation } from 'react-router-dom'
 import {
   Grid,
   Header,
@@ -7,16 +7,13 @@ import {
   Segment,
   Sidebar,
 } from 'semantic-ui-react'
-import t, {dict} from './utilities/translation';
+import t from './utilities/translation';
 import './App.scss'
 import MainContent from './components/MainContent/MainContent';
-console.log(dict)
 function App() {
-  const [sidebarVisible, setSidebarVisible] = useState(true)
-
+  console.log(useLocation().pathname)
   return (
     <Grid columns={1} id='App'>
-      {/* <Sticky > */}
         <Grid.Column>
           <Sidebar
             as={Menu}
@@ -27,30 +24,24 @@ function App() {
             visible={true}
             width='thin'
           >
-            {/* <div onClick={() => setSidebarVisible(!sidebarVisible)}> */}
             <div>
               <Menu.Item as='a' href='/'>
                 <Icon name='home' />
-                {/* {t('de', 'MISC', 'MENUE')} */}
               </Menu.Item>
             </div>
-            <div flex >
-            <Header id='header1' as='h1'>Dr. Marcel Sebastian</Header>
-            {/* <Header id='header2' as='h3'>Soziologe – Autor – Public Speaker</Header> */}
+            <div>
+            {useLocation().pathname !== '/' && <Header id='header1' as='h1'>Dr. Marcel Sebastian</Header>}
             </div>
           </Sidebar>
         </Grid.Column>
-      {/* </Sticky> */}
         <Grid.Column>
           <Sidebar.Pushable as={Segment}>
             <Sidebar
               as={Menu}
-              // animation='overlay'
               icon='labeled'
               inverted
-              // onHide={() => setSidebarVisible(false)}
               vertical
-              visible={sidebarVisible}
+              visible={true}
               width='thin'
             >
               <Menu.Item as='a' href='/aboutme'>
@@ -77,9 +68,7 @@ function App() {
               </Menu.Item> */}
             </Sidebar>
 
-            <Sidebar.Pusher 
-              // dimmed={sidebarVisible}
-            >
+            <Sidebar.Pusher >
                 <MainContent />
             </Sidebar.Pusher>
           </Sidebar.Pushable>
