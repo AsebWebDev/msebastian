@@ -233,8 +233,8 @@ const dict = {
     "PRESS" : {
       "PRESS_TITLE" : `Presse`,
       "PRESS_MODAL_TITLE" : `Presse-PDF`,
-      "PRESS_MODAL_HEADER" : `Diese PDF enthält alle Pressemitteilungen.`,
-      "PRESS_MODAL_DESCRIPTION" : `Dies ist eine nähere Beschreibung des Inhalts und der Sachlage.`,
+      "PRESS_MODAL_HEADER" : `Liste an Presseerwähnungen`,
+      "PRESS_MODAL_DESCRIPTION" : `Diese Datei enthält eine Liste der Presseerwähnungen von Dr. Marcel Sebastian.`,
       "PRESS_MODAL_QUESTION" : `Möchten Sie diese Datei herunterladen? `,
       "PRESS_MODAL_CONFIRM" : `Ja, herunterladen`,
       "PRESS_MODAL_DENY" : `Nein`,
