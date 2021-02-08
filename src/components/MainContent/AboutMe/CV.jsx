@@ -7,11 +7,11 @@ export default function CV() {
     <div className="cv">
       <Header as='h1'>{t('de', 'CV', 'CV_TITLE')}</Header>
       <List divided relaxed>
-        <ListItem header={`${t("de", "CV", "CV_5_DATE")} - ${t("de", "CV", "CV_5_TITLE")}`} metaText={`${t("de", "CV", "CV_5")}`}/>
-        <ListItem header={`${t("de", "CV", "CV_4_DATE")} - ${t("de", "CV", "CV_4_TITLE")}`} metaText={`${t("de", "CV", "CV_4")}`}/>
-        <ListItem header={`${t("de", "CV", "CV_3_DATE")} - ${t("de", "CV", "CV_3_TITLE")}`} metaText={`${t("de", "CV", "CV_3")}`}/>
-        <ListItem header={`${t("de", "CV", "CV_2_DATE")} - ${t("de", "CV", "CV_2_TITLE")}`} metaText={`${t("de", "CV", "CV_2")}`}/>
-        <ListItem header={`${t("de", "CV", "CV_1_DATE")} - ${t("de", "CV", "CV_1_TITLE")}`} metaText={`${t("de", "CV", "CV_1")}`}/>
+        <ListItem header={`${t("de", "CV", "CV_5_DATE")} - ${t("de", "CV", "CV_5_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_5")}`}/>
+        <ListItem header={`${t("de", "CV", "CV_4_DATE")} - ${t("de", "CV", "CV_4_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_4")}`}/>
+        <ListItem header={`${t("de", "CV", "CV_3_DATE")} - ${t("de", "CV", "CV_3_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_3")}`}/>
+        <ListItem header={`${t("de", "CV", "CV_2_DATE")} - ${t("de", "CV", "CV_2_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_2")}`}/>
+        <ListItem header={`${t("de", "CV", "CV_1_DATE")} - ${t("de", "CV", "CV_1_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_1")}`}/>
       </List>
 
       <Header as="h2">{t("de", "MEMBERSHIP", "MEMBERSHIP_TITLE")}</Header>
