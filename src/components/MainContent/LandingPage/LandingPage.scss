@@ -3,11 +3,11 @@
 #landing-page {
   background-color: black;
   height: 100.5vh;
+  color: #55C7FF;
 }
 
 @include sm {
     #landing-page {
-        // background: url('../../../assets/images/screenshot.jpg') no-repeat ;
         background: url('../../../assets/images/marcel-portrait_frontseite.jpg') no-repeat ;
         background-size: cover;
         background-clip: border-box;

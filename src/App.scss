@@ -4,9 +4,24 @@
   margin: 0;
 
   #header1, #header2{
-    color: white;
-    margin: 1rem 0 0 2.2rem;
+    color:#55C7FF;
     width: 100%;
+  }
+
+  .page-header {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color:white;
+
+    .email {
+      width: 100%;
+      text-align: end;
+      padding: 0 2% 0% 0;
+      i {
+        padding-right: 2%;
+      }
+    }
   }
 
   @include lg {

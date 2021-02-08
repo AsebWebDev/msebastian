@@ -11,16 +11,16 @@ import t from './utilities/translation';
 import './App.scss'
 import MainContent from './components/MainContent/MainContent';
 function App() {
-  console.log(useLocation().pathname)
   return (
     <Grid columns={1} id='App'>
         <Grid.Column>
           <Sidebar
             as={Menu}
             animation='push'
+            className="page-header"
+            direction='top'
             icon='labeled'
             inverted
-            direction='top'
             visible={true}
             width='thin'
           >
@@ -32,6 +32,7 @@ function App() {
             <div>
             {useLocation().pathname !== '/' && <Header id='header1' as='h1'>Dr. Marcel Sebastian</Header>}
             </div>
+            <div className="email"><Icon name='mail' size="big"/><a href= "mailto:kontakt@marcelsebastian.de">kontakt@marcelsebastian.de</a></div>
           </Sidebar>
         </Grid.Column>
         <Grid.Column>
