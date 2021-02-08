@@ -10,6 +10,8 @@ import {
 import t from './utilities/translation';
 import './App.scss'
 import MainContent from './components/MainContent/MainContent';
+import PressModal from './components/MainContent/Press/PressModal';
+
 function App() {
   return (
     <Grid columns={1} id='App'>
@@ -57,11 +59,7 @@ function App() {
                 <Icon name='star' />
                 {t('de', 'LECTURES', 'LECTURES_TITLE')}
               </Menu.Item>
-              {/* TODO: FOR SECOND RELEASE */}
-              {/* <Menu.Item as='a' href='/press'>
-                <Icon name='star' />
-                {t('de', 'PRESS_TITLE')}
-              </Menu.Item> */}
+              <PressModal />
               {/* TODO: FOR SECOND RELEASE */}
               {/* <Menu.Item as='a' href='/workshopsandcounselling'>
                 <Icon name='star' />
