@@ -24,6 +24,15 @@
     }
   }
 
+  .ui.list>.item a {
+    cursor: auto;
+  }
+  
+  .ui.list>.item a.header {
+    color: white!important;
+  }
+  
+
   @include lg {
     #header1, #header2 {
       margin-left: 20rem;
@@ -49,4 +58,5 @@
 .sidebar.vertical {
   padding-top: 100px;
 }
+
 
