@@ -2,4 +2,13 @@
   height: 100%;
   padding: 10% 4% 4% 4%!important;
   background-color:rgba(0, 0, 0, 0.7);
+
+
+  .ui.list>.item a {
+    cursor: auto;
+  }
+  
+  .ui.list>.item a.header {
+    color: white!important;
+  }
 }

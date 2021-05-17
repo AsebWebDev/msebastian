@@ -1,6 +1,14 @@
 #aboutme-index {
   padding: 5% 0 0 5%!important;
   height: 100%;
+
+  .ui.list>.item a {
+    cursor: auto;
+  }
+  
+  .ui.list>.item a.header {
+    color: black!important;
+  }
 }
 
 .cv {
@@ -10,3 +18,5 @@
 .price {
   padding-left: 5%;
 }
+
+
