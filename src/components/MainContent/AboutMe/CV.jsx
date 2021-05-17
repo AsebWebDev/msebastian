@@ -5,7 +5,7 @@ import ListItem from '../ListItem'
 export default function CV() {
   return (
     <div className="cv">
-      <Header as='h1'>{t('de', 'CV', 'CV_TITLE')}</Header>
+      <Header color='blue' as='h1'>{t('de', 'CV', 'CV_TITLE')}</Header>
       <List divided relaxed>
         <ListItem header={`${t("de", "CV", "CV_5_DATE")} - ${t("de", "CV", "CV_5_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_5")}`}/>
         <ListItem header={`${t("de", "CV", "CV_4_DATE")} - ${t("de", "CV", "CV_4_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_4")}`}/>
@@ -14,7 +14,7 @@ export default function CV() {
         <ListItem header={`${t("de", "CV", "CV_1_DATE")} - ${t("de", "CV", "CV_1_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_1")}`}/>
       </List>
 
-      <Header as="h2">{t("de", "MEMBERSHIP", "MEMBERSHIP_TITLE")}</Header>
+      <Header color='blue' as="h2">{t("de", "MEMBERSHIP", "MEMBERSHIP_TITLE")}</Header>
       <List>
         <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_5")}`}/>
         <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_4")}`}/>
@@ -23,7 +23,7 @@ export default function CV() {
         <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_1")}`}/>
       </List>
 
-      <Header as="h2">{t("de", "EXPERT_OPINION", "EXPERT_OPINION_TITLE")}</Header>
+      <Header color='blue' as="h2">{t("de", "EXPERT_OPINION", "EXPERT_OPINION_TITLE")}</Header>
       <List>
         <ListItem header={`${t("de", "EXPERT_OPINION", "EXPERT_OPINION_3")}`}/>
         <ListItem header={`${t("de", "EXPERT_OPINION", "EXPERT_OPINION_2")}`}/>
