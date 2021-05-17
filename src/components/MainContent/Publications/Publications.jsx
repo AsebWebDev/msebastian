@@ -14,6 +14,16 @@ export default function Publications() {
         <List inverted divided relaxed >
           <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_AUTHOR_1')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_TITLE_1')}`}/>
           <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_AUTHOR_2')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_TITLE_2')}`}/>
+          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_AUTHOR_3')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_TITLE_3')}`}/>
+        </List>
+
+        {/* Artikel in Begutachtung */}
+
+        <Header color='blue' inverted as='h2'>{t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_TITLE')}</Header>
+        <List inverted divided relaxed >
+          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_AUTHOR_1')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_TITLE_1')}`}/>
+          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_AUTHOR_2')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_TITLE_2')}`}/>
+          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_AUTHOR_3')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_TITLE_3')}`}/>
         </List>
 
         {/* Artikel in wissenschaftlichen Sammelbänden */}
@@ -45,6 +55,7 @@ export default function Publications() {
           <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_3_AUTHOR_9')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_3_TITLE_9')}`}/>
           <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_3_AUTHOR_10')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_3_TITLE_10')}`}/>
           <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_3_AUTHOR_11')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_3_TITLE_11')}`}/>
+          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_3_AUTHOR_12')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_3_TITLE_12')}`}/>
         </List> 
 
         {/* Tagungsberichte und Rezensionen */}
@@ -53,6 +64,7 @@ export default function Publications() {
           <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_4_AUTHOR_1')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_4_TITLE_1')}`}/>
           <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_4_AUTHOR_2')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_4_TITLE_2')}`}/>
           <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_4_AUTHOR_3')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_4_TITLE_3')}`}/>
+          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_4_AUTHOR_4')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_4_TITLE_4')}`}/>
         </List> 
 
       </Container>
