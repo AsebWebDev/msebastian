@@ -265,7 +265,7 @@ const dict = {
           "dateandvenue":  `16.09.2020, digitaler Kongress.`,
         },
         {
-          "title":         `„“Wie lassen sich Unterschiede zwischen Schlachthofarbeitern im Umgang mit dem Töten von Tieren erklären?”, Präsentation im Rahmen des Minding Animals Germany Symposium Vienna,`,
+          "title":         `„Wie lassen sich Unterschiede zwischen Schlachthofarbeitern im Umgang mit dem Töten von Tieren erklären?”, Präsentation im Rahmen des Minding Animals Germany Symposium Vienna,`,
           "dateandvenue":  `7.10.2018, Messerli Forschungsinstitut, Vetmeduni Wien.`,
         },
         {
