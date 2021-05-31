@@ -82,22 +82,22 @@ const dict = {
         // Artikel in Fachzeitschriften
 
       "PUBLICATIONS_1_TITLE":     `Artikel in Fachzeitschriften`,
-      "PUBLICATIONS_1_AUTHOR_1": `Sebastian, Marcel (2021, i.E.)`,
-      "PUBLICATIONS_1_TITLE_1":  `'Die denken immer, man ist ein Killer' – Reaktionsweisen von Schlachthofarbeitern auf moralische Stigmatisierung. Österreichische Zeitschrift für Soziologie`,
+      "PUBLICATIONS_1_AUTHOR_4":  `Sebastian, Marcel (2021, i.E.)`,
+      "PUBLICATIONS_1_TITLE_4":   `The influence of social movements on policy change: Delayed success in banning dog slaughter in Germany. Social Movement Studies`,
+      "PUBLICATIONS_1_AUTHOR_3":  `Sebastian, Marcel (2021, i.E.)`,
+      "PUBLICATIONS_1_TITLE_3":   `'Die denken immer, man ist ein Killer' – Reaktionsweisen von Schlachthofarbeitern auf moralische Stigmatisierung. Österreichische Zeitschrift für Soziologie`,
       "PUBLICATIONS_1_AUTHOR_2":  `Sebastian, Marcel (2013)`,
       "PUBLICATIONS_1_TITLE_2":   `Tierliebe im Schlachthof? Das Interesse am Wohl der Tiere als Verarbeitungsstrategie von Gewalt im Schlachthof. Tierstudien, 3/2013, S. 102-113`,
-      "PUBLICATIONS_1_AUTHOR_3":  `Buschka, Sonja/Gutjahr, Julia/Sebastian, Marcel (2012)`,
-      "PUBLICATIONS_1_TITLE_3":   `Gesellschaft und Tiere - Grundlagen und Perspektiven der  Human- Animal Studies. Aus Politk und Zeitgeschichte, 62 (8-9), S. 20-26.`,
+      "PUBLICATIONS_1_AUTHOR_1":  `Buschka, Sonja/Gutjahr, Julia/Sebastian, Marcel (2012)`,
+      "PUBLICATIONS_1_TITLE_1":   `Gesellschaft und Tiere - Grundlagen und Perspektiven der  Human- Animal Studies. Aus Politk und Zeitgeschichte, 62 (8-9), S. 20-26.`,
          
         // Artikel in Begutachtung
         
       "PUBLICATIONS_1a_TITLE":    `Artikel in Begutachtung`,
-      "PUBLICATIONS_1a_AUTHOR_1": `Sebastian, Marcel (2021)`,
-      "PUBLICATIONS_1a_TITLE_1":  `The influence of social movements on policy change: Delayed success in banning dog slaughter in Germany. Eingereicht bei Social Movement Studies (revise & resubmit)`,
       "PUBLICATIONS_1a_AUTHOR_2": `Pfau-Effinger, Birgit/Sebastian, Marcel (2021)`,
       "PUBLICATIONS_1a_TITLE_2":  `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Eingereicht bei Agriculture & Human Values (revise & resubmit)`,
-      "PUBLICATIONS_1a_AUTHOR_3": `Sebastian, Marcel/Seeliger, Martin (2021)`,
-      "PUBLICATIONS_1a_TITLE_3":  `Die Re-Regulierung der Schlachthofarbeit in der Corona-Krise. Eingereicht bei Arbeit. Zeitschrift für Arbeitsforschung, Arbeitsgestaltung und Arbeitspolitik`,
+      "PUBLICATIONS_1a_AUTHOR_1": `Sebastian, Marcel/Seeliger, Martin (2021)`,
+      "PUBLICATIONS_1a_TITLE_1":  `Die Re-Regulierung der Schlachthofarbeit in der Corona-Krise. Eingereicht bei Arbeit. Zeitschrift für Arbeitsforschung, Arbeitsgestaltung und Arbeitspolitik`,
 
         // Artikel in wissenschaftlichen Sammelbänden
 
