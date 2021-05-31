@@ -1,4 +1,4 @@
-import { Container, Header, List,  } from 'semantic-ui-react';
+import { Container, Header, List } from 'semantic-ui-react';
 import ListItem from '../ListItem'
 import { dict } from '../../../utilities/translation'
 import './Publications.scss'
