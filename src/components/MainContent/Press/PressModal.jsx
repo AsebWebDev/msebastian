@@ -15,7 +15,7 @@ function PressModal() {
       open={open}
       trigger={
         <Menu.Item>
-          <Icon name='star' />
+          <Icon name='newspaper' />
           {t('de', 'PRESS', 'PRESS_TITLE')}
         </Menu.Item>
       }
