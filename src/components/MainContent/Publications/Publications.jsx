@@ -12,18 +12,18 @@ export default function Publications() {
 
         <Header color='blue' inverted as='h2'>{t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_TITLE')}</Header>
         <List inverted divided relaxed >
-          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_AUTHOR_1')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_TITLE_1')}`}/>
-          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_AUTHOR_2')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_TITLE_2')}`}/>
+          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_AUTHOR_4')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_TITLE_4')}`}/>
           <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_AUTHOR_3')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_TITLE_3')}`}/>
+          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_AUTHOR_2')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_TITLE_2')}`}/>
+          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_AUTHOR_1')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1_TITLE_1')}`}/>
         </List>
 
         {/* Artikel in Begutachtung */}
 
         <Header color='blue' inverted as='h2'>{t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_TITLE')}</Header>
         <List inverted divided relaxed >
-          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_AUTHOR_1')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_TITLE_1')}`}/>
           <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_AUTHOR_2')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_TITLE_2')}`}/>
-          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_AUTHOR_3')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_TITLE_3')}`}/>
+          <ListItem header={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_AUTHOR_1')}`} metaText={`${t('de', 'PUBLICATIONS', 'PUBLICATIONS_1a_TITLE_1')}`}/>
         </List>
 
         {/* Artikel in wissenschaftlichen Sammelbänden */}
