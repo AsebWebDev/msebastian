@@ -1,33 +1,23 @@
 import { Header, List } from "semantic-ui-react";
 import t from "../../../utilities/translation";
 import ListItem from '../ListItem'
+import { dict } from '../../../utilities/translation';
 
 export default function CV() {
   return (
     <div className="cv">
       <Header color='blue' as='h1'>{t('de', 'CV', 'CV_TITLE')}</Header>
-      <List divided relaxed>
-        <ListItem header={`${t("de", "CV", "CV_5_DATE")} - ${t("de", "CV", "CV_5_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_5")}`}/>
-        <ListItem header={`${t("de", "CV", "CV_4_DATE")} - ${t("de", "CV", "CV_4_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_4")}`}/>
-        <ListItem header={`${t("de", "CV", "CV_3_DATE")} - ${t("de", "CV", "CV_3_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_3")}`}/>
-        <ListItem header={`${t("de", "CV", "CV_2_DATE")} - ${t("de", "CV", "CV_2_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_2")}`}/>
-        <ListItem header={`${t("de", "CV", "CV_1_DATE")} - ${t("de", "CV", "CV_1_TITLE")}`} dark={true} metaText={`${t("de", "CV", "CV_1")}`}/>
+        <List divided relaxed>
+          {dict.de.CV.ITEMS.map(CVItem => <ListItem header={`${CVItem.date} - ${CVItem.title}`} dark={true} metaText={`${CVItem.text}`}/>)}
+        </List>
+      <Header color='blue' as="h2">{dict.de.MEMBERSHIP.MEMBERSHIP_TITLE}</Header>
+      <List>
+        {dict.de.MEMBERSHIP.ITEMS.map(membership => <ListItem header={`${membership.title}`}/>)}
       </List>
 
-      <Header color='blue' as="h2">{t("de", "MEMBERSHIP", "MEMBERSHIP_TITLE")}</Header>
+      <Header color='blue' as="h2">{dict.de.EXPERT_OPINION.EXPERT_OPINION_TITLE}</Header>
       <List>
-        <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_5")}`}/>
-        <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_4")}`}/>
-        <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_3")}`}/>
-        <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_2")}`}/>
-        <ListItem header={`${t("de", "MEMBERSHIP", "MEMBERSHIP_1")}`}/>
-      </List>
-
-      <Header color='blue' as="h2">{t("de", "EXPERT_OPINION", "EXPERT_OPINION_TITLE")}</Header>
-      <List>
-        <ListItem header={`${t("de", "EXPERT_OPINION", "EXPERT_OPINION_3")}`}/>
-        <ListItem header={`${t("de", "EXPERT_OPINION", "EXPERT_OPINION_2")}`}/>
-        <ListItem header={`${t("de", "EXPERT_OPINION", "EXPERT_OPINION_1")}`}/>
+        {dict.de.EXPERT_OPINION.ITEMS.map(expertOpinion => <ListItem header={`${expertOpinion.title}`}/>)}
       </List>
     </div>
   );
