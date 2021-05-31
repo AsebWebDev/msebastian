@@ -4,8 +4,11 @@
     #publication-index {
         color: white;
         background: url('../../../assets/images/Jaemtland.jpg') no-repeat;
-        background-size: cover;
         background-clip: border-box;
         background-attachment: fixed;
+        background-position-x: -235px;
+        background-position-y: -235px;
+        display: flex;
+        flex: 1;
     }
 }
