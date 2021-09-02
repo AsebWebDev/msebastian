@@ -13,7 +13,7 @@ const dict = {
 
     "ABOUT_ME" : {
       "ABOUT_ME_TITLE" : `Über mich`,
-      "ABOUT_ME_SUMMARY" : `In meiner Forschung analysiere ich den Zusammenhang von Institutionenwandel, Kulturwandel und Akteurshandeln. Mein
+      "ABOUT_ME_SUMMARY" : `In deiner Forschung analysiere ich den Zusammenhang von Institutionenwandel, Kulturwandel und Akteurshandeln. Mein
               thematischer Schwerpunkt ist die Soziologie der Mensch-Tier-Beziehung. Dieses Thema untersuche ich unter anderem
               aus der Perspektive des historischen Institutionalismus, der Arbeitssoziologie, der Emotionssoziologie, der
               Gewaltsoziologie und der sozialen Bewegungsforschung.`,
