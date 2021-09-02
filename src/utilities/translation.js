@@ -33,6 +33,7 @@ const dict = {
           "Metadaten" : {
               "ISSN": `XXX`,
               "ISBN": `XXX`,
+              "HeftNr": 7,
           },
         },
         {
