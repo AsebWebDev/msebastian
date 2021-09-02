@@ -21,6 +21,29 @@ const dict = {
     },
     
     // ===================================================================
+    // Aktuelles
+    // ===================================================================
+
+    "AKTUELLES" : {
+      "AKTUELLES_TITLE" : "Aktuelles",
+      "ITEMS" : [
+        {
+          "date" : `09/2021`,
+          "text" : `Mein Artikel "XX" wurde in Social Movemen Studies veröffentlicht:  `,
+          "Metadaten" : {
+              "ISSN": `XXX`,
+              "ISBN": `XXX`,
+          },
+        },
+        {
+          "date" : `07/2021`,
+          "text" : `Mein Artikel "XX" wurde in der Österreichischen Zeitschrift für Soziologie veröffentlicht:  `,
+        },  
+       
+      ]
+    },
+    
+        // ===================================================================
     // C V
     // ===================================================================
 
@@ -54,6 +77,7 @@ const dict = {
         }, 
       ]
     },
+    
     
     // =======================================
     // MEMBERSHIP
