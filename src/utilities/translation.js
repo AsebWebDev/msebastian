@@ -119,7 +119,7 @@ const dict = {
       "PUBLICATIONS_1_ITEMS": [
         {
           "author":  `Sebastian, Marcel (2021)`,
-          "title":   `The influence of social movements on policy change: Delayed success in banning dog slaughter in Germany. Social Movement Studies`, online: https://doi.org/10.1080/14742837.2021.1967126
+          "title":   `The influence of social movements on policy change: Delayed success in banning dog slaughter in Germany. Social Movement Studies, online: https://doi.org/10.1080/14742837.2021.1967126`,
         },
         {
           "author":  `Sebastian, Marcel (2021)`,
