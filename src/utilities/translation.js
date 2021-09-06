@@ -37,7 +37,7 @@ const dict = {
         },
         {
           "date" : `03/06/2021`,
-          "title" : `Im Museum August Kestner (Hannover) eröffnet die von mir als wissenschaftlicher BErater begleitete Ausstellung "Das Tier und wir": https://themator.museum-digital.de/ausgabe/scrolltopic.php?m_tid=1233&tid=1233`,
+          "title" : `Im Museum August Kestner (Hannover) eröffnet die von mir als wissenschaftlicher Berater begleitete Ausstellung "Das Tier und wir": https://themator.museum-digital.de/ausgabe/scrolltopic.php?m_tid=1233&tid=1233`,
         },  
       ]
     },
