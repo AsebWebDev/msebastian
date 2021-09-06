@@ -2,6 +2,10 @@
   padding: 5% 0 0 5%!important;
   height: 100%;
 
+  a {
+    cursor: pointer!important;
+  }
+
   .ui.list>.item a {
     cursor: auto;
   }
@@ -18,5 +22,6 @@
 .price {
   padding-left: 5%;
 }
+
 
 
