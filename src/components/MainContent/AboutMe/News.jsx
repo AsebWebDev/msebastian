@@ -1,6 +1,5 @@
 import { Header, List } from "semantic-ui-react";
 import t from "../../../utilities/translation";
-import ListItem from "../ListItem";
 import { dict } from "../../../utilities/translation";
 
 export default function CV() {
