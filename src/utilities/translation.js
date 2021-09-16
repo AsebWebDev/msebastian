@@ -27,6 +27,16 @@ const dict = {
       NEWS_TITLE: "Aktuelles",
       ITEMS: [
         {
+          date: `16/09/2021`,
+          title: `Ab dem 30.09.2021 wird das Theaterstück "Spezies" der Gruppe "Oh!Darling", das ist wissenschaftlich beraten habe, in Zürch aufgeführt: https://www.kulturzueri.ch/kulturdatenbank-zurich/veranstaltungen/41451-3150-oh-darling/.`,
+          link: 'https://doi.org/10.1080/14742837.2021.1967126'
+        },
+        {
+          date: `15/09/2021`,
+          title: `Im WDR Newsroom ist ein Interview mit mir erschienen: https://www1.wdr.de/nachrichten/faeroeer-delfine-massentoeten-100.html`,
+          link: 'https://doi.org/10.1080/14742837.2021.1967126'
+        },
+        {
           date: `02/09/2021`,
           title: `Mein Artikel "The influence of social movements on policy change: delayed success in banning dog slaughter in Germany" wurde in Social Movement Studies veröffentlicht.`,
           link: 'https://doi.org/10.1080/14742837.2021.1967126'
@@ -51,6 +61,11 @@ const dict = {
     CV: {
       CV_TITLE: "Curriculum Vitae",
       ITEMS: [
+        {
+          date: `Seit 08/2021`,
+          title: `Wissenschaftsautor`,
+          text: `Buchprojekt im Kösel Verlag (Penguin Random House) zur Ambivalenz der Mensch-Tier-Beziehung`,
+        },
         {
           date: `01/2021`,
           title: `Promotion Soziologie (summa cum laude)`,
@@ -111,6 +126,7 @@ const dict = {
     EXPERT_OPINION: {
       EXPERT_OPINION_TITLE: `Gutachtertätigkeiten`,
       ITEMS: [
+        { title: `Tierstudien (2021)` },
         { title: `Psychosozial (2019)` },
         {
           title: `Berliner und Münchner Tierärztlichen Wochenschrift, Sonderheft zur Tiermedizinischen Ethik (2019)`,
@@ -140,6 +156,10 @@ const dict = {
           title: `'Die denken immer, man ist ein Killer' – Reaktionsweisen von Schlachthofarbeitern auf moralische Stigmatisierung. Österreichische Zeitschrift für Soziologie, 46, S.207-227, online: https://link.springer.com/article/10.1007/s11614-021-00450-3`,
         },
         {
+          author: `Sebastian, Marcel/Seeliger, Martin (2021, i.E.)`,
+          title: `Die Re-Regulierung der Schlachthofarbeit in der Corona-Krise. Eingereicht bei Arbeit. Zeitschrift für Arbeitsforschung, Arbeitsgestaltung und Arbeitspolitik`,
+        },
+        {
           author: `Sebastian, Marcel (2013)`,
           title: `Tierliebe im Schlachthof? Das Interesse am Wohl der Tiere als Verarbeitungsstrategie von Gewalt im Schlachthof. Tierstudien, 3/2013, S. 102-113`,
         },
@@ -157,10 +177,7 @@ const dict = {
           author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2021)`,
           title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Eingereicht bei Agriculture & Human Values (revise & resubmit)`,
         },
-        {
-          author: `Sebastian, Marcel/Seeliger, Martin (2021)`,
-          title: `Die Re-Regulierung der Schlachthofarbeit in der Corona-Krise. Eingereicht bei Arbeit. Zeitschrift für Arbeitsforschung, Arbeitsgestaltung und Arbeitspolitik`,
-        },
+        
         {
           author: `Sebastian, Marcel/Seeliger, Martin (2021)`,
           title: `The Re-Regulation of Slaughterhouse Labor during the Covid-19-Crisis. Eingereicht bei Global Labour Journal.`,
@@ -217,8 +234,8 @@ const dict = {
       PUBLICATIONS_4_HEADER: `Wissenschaftsjournalistische und andere Artikel`,
       PUBLICATIONS_4_ITEMS: [
         {
-          author: `Sebastian, Marcel (2021, i.E.)`,
-          title: `Jemand oder etwas? Unser ambivalentes Verhältnis zu Tieren. In: Museum Ernst Kestner (Hrsg.): Das Tier und Wir.`,
+          author: `Sebastian, Marcel (2021)`,
+          title: `emand oder etwas? Unser ambivalentes Verhältnis zu Tieren. In: Museum Ernst Kestner (Hrsg.): August. Thema: Das Tier und Wir. Oldenburg: Isensee Verlag, S.6-9.`,
         },
         {
           author: `Sebastian, Marcel (2020)`,
@@ -269,7 +286,7 @@ const dict = {
       PUBLICATIONS_5_HEADER: `Tagungsberichte und Rezensionen`,
       PUBLICATIONS_5_ITEMS: [
         {
-          author: `Sebastian, Marcel (2021)`,
+          author: `Sebastian, Marcel (2021, i.E.)`,
           title: `Die Objektifizierung der Tiere als Revolution im Stall (Rezension zu Settele, Veronika: Revolution im Stall. Landwirtschaftliche Tierhaltung in Deutschland 1945–1990.), in: Tierstudien.`,
         },
         {
