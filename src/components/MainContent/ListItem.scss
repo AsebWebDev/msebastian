@@ -1,5 +1,15 @@
+@import "../../utilities/variables";
+
 #list-item {
-    .list-description {
-        color:rgba(255,255,255,0.6)!important;
-    }
+  a {
+    color: $link-color !important;
+  }
+
+  a:hover {
+    color: $link-color-hover !important;
+  }
+
+  .list-description {
+    color: rgba(255, 255, 255, 0.6) !important;
+  }
 }

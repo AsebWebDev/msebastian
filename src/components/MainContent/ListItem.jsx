@@ -5,20 +5,28 @@ function ListItem({ header, link, metaText, dark }) {
   return (
     <List.Item id="list-item">
       <List.Icon
-        size="mini"
-        name="circle"
+        size="small"
+        name={link ? "globe" : "circle"}
         verticalAlign="middle"
       />
       <List.Content>
         <List.Header>{header}</List.Header>
         <List.Description
-          as={link ? 'a' : 'span'}
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
           className={dark ? "" : "list-description"}
         >
-          {metaText}
+          {metaText}{" "}
+          {link && (
+            <>
+              <br />
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <strong>Link zum Artikel</strong>
+              </a>
+            </>
+          )}
         </List.Description>
       </List.Content>
     </List.Item>

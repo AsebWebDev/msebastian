@@ -18,7 +18,6 @@ export default function CV() {
             />
             <List.Content>
               <List.Header>
-                
                   {news.date}
               </List.Header>
               <List.Description>
