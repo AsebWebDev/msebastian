@@ -10,22 +10,16 @@ function ListItem({ header, link, metaText, dark }) {
         verticalAlign="middle"
       />
       <List.Content>
-        <List.Header as="a">{header}</List.Header>
+        <List.Header>{header}</List.Header>
         <List.Description
-          as="a"
+          as={link ? 'a' : 'span'}
+          href={link}
+          target="_blank"
+          rel="noopener noreferrer"
           className={dark ? "" : "list-description"}
         >
           {metaText}
         </List.Description>
-        {link && (
-          <a
-            href={link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <strong>Link zur Publikation</strong>
-          </a>
-        )}
       </List.Content>
     </List.Item>
   );
