@@ -149,11 +149,13 @@ const dict = {
       PUBLICATIONS_1_ITEMS: [
         {
           author: `Sebastian, Marcel (2021)`,
-          title: `The influence of social movements on policy change: Delayed success in banning dog slaughter in Germany. Social Movement Studies, online: https://doi.org/10.1080/14742837.2021.1967126`,
+          title: `The influence of social movements on policy change: Delayed success in banning dog slaughter in Germany. Social Movement Studies`,
+          link: `https://doi.org/10.1080/14742837.2021.1967126`,
         },
         {
           author: `Sebastian, Marcel (2021)`,
-          title: `'Die denken immer, man ist ein Killer' – Reaktionsweisen von Schlachthofarbeitern auf moralische Stigmatisierung. Österreichische Zeitschrift für Soziologie, 46, S.207-227, online: https://link.springer.com/article/10.1007/s11614-021-00450-3`,
+          title: `'Die denken immer, man ist ein Killer' – Reaktionsweisen von Schlachthofarbeitern auf moralische Stigmatisierung. Österreichische Zeitschrift für Soziologie, 46, S.207-227`,
+          link: `https://link.springer.com/article/10.1007/s11614-021-00450-3`
         },
         {
           author: `Sebastian, Marcel/Seeliger, Martin (2021, i.E.)`,
