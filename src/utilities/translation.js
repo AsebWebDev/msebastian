@@ -177,7 +177,6 @@ const dict = {
           author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2021)`,
           title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Eingereicht bei Agriculture & Human Values (revise & resubmit)`,
         },
-        
         {
           author: `Sebastian, Marcel/Seeliger, Martin (2021)`,
           title: `The Re-Regulation of Slaughterhouse Labor during the Covid-19-Crisis. Eingereicht bei Global Labour Journal.`,
@@ -235,7 +234,7 @@ const dict = {
       PUBLICATIONS_4_ITEMS: [
         {
           author: `Sebastian, Marcel (2021)`,
-          title: `emand oder etwas? Unser ambivalentes Verhältnis zu Tieren. In: Museum Ernst Kestner (Hrsg.): August. Thema: Das Tier und Wir. Oldenburg: Isensee Verlag, S.6-9.`,
+          title: `Jemand oder etwas? Unser ambivalentes Verhältnis zu Tieren. In: Museum Ernst Kestner (Hrsg.): August. Thema: Das Tier und Wir. Oldenburg: Isensee Verlag, S.6-9.`,
         },
         {
           author: `Sebastian, Marcel (2020)`,
