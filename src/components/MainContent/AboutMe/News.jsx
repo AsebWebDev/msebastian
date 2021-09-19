@@ -27,7 +27,7 @@ export default function CV() {
                   href={news.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                ><strong>Link zum Artikel</strong></a>
+                ><strong>{dict.de.MISC.LINK}</strong></a>
               </List.Description>
             </List.Content>
           </List.Item>

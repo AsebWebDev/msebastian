@@ -1,4 +1,5 @@
 import { List } from "semantic-ui-react";
+import { dict } from '../../utilities/translation';
 import "./ListItem.scss";
 
 function ListItem({ header, link, metaText, dark }) {
@@ -23,7 +24,7 @@ function ListItem({ header, link, metaText, dark }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <strong>Link zum Artikel</strong>
+                <strong>{dict.de.MISC.LINK}</strong>
               </a>
             </>
           )}
