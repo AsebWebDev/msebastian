@@ -16,3 +16,7 @@ code {
 html {
   min-height: 100%
 }
+
+a {
+  cursor: pointer!important;
+}
