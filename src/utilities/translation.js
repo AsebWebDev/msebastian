@@ -28,13 +28,13 @@ const dict = {
       ITEMS: [
         {
           date: `16/09/2021`,
-          title: `Ab dem 30.09.2021 wird das Theaterstück "Spezies" der Gruppe "Oh!Darling", das ist wissenschaftlich beraten habe, in Zürch aufgeführt: https://www.kulturzueri.ch/kulturdatenbank-zurich/veranstaltungen/41451-3150-oh-darling/.`,
-          link: 'https://doi.org/10.1080/14742837.2021.1967126'
+          title: `Ab dem 30.09.2021 wird das Theaterstück "Spezies" der Gruppe "Oh!Darling", das ist wissenschaftlich beraten habe, in Zürch aufgeführt.`,
+          link: 'https://www.kulturzueri.ch/kulturdatenbank-zurich/veranstaltungen/41451-3150-oh-darling/'
         },
         {
           date: `15/09/2021`,
-          title: `Im WDR Newsroom ist ein Interview mit mir erschienen: https://www1.wdr.de/nachrichten/faeroeer-delfine-massentoeten-100.html`,
-          link: 'https://doi.org/10.1080/14742837.2021.1967126'
+          title: `Im WDR Newsroom ist ein Interview mit mir erschienen.`,
+          link: ' https://www1.wdr.de/nachrichten/faeroeer-delfine-massentoeten-100.html'
         },
         {
           date: `02/09/2021`,
