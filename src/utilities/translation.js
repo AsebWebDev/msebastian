@@ -29,7 +29,7 @@ const dict = {
       ITEMS: [
         {
           date: `16/09/2021`,
-          title: `Ab dem 30.09.2021 wird das Theaterstück "Spezies" der Gruppe "Oh!Darling", das ist wissenschaftlich beraten habe, in Zürch aufgeführt.`,
+          title: `Ab dem 30.09.2021 wird das Theaterstück "Spezies" der Gruppe "Oh!Darling", das ich wissenschaftlich beraten habe, in Zürch aufgeführt.`,
           link: 'https://www.kulturzueri.ch/kulturdatenbank-zurich/veranstaltungen/41451-3150-oh-darling/'
         },
         {
