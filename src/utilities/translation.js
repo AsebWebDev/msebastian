@@ -191,7 +191,6 @@ const dict = {
 
       PUBLICATIONS_2_HEADER: `Artikel in Begutachtung`,
       PUBLICATIONS_2_ITEMS: [
-        
         {
           author: `Sebastian, Marcel/Seeliger, Martin (2021)`,
           title: `The Re-Regulation of Slaughterhouse Labor during the Covid-19-Crisis. Eingereicht bei Global Labour Journal.`,
