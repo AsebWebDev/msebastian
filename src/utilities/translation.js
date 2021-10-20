@@ -35,7 +35,7 @@ const dict = {
         {
           date: `19/09/2021`,
           title: `Im Spiegel ist ein Artikel zum Thema "Pferdemisshandlung bei Olympia. Sollte der Leistungssport auf Tiere verzichten?" erschienen, in dem 
-          Interviewausschnitte mit mit enthalten sind. 
+          Interviewausschnitte mit mit enthalten sind.`,
           link: 'https://www.spiegel.de/sport/reitsport-in-der-diskussion-viele-sagen-es-ist-eine-sauerei-was-die-mit-dem-pferd-anstellt-a-39c30865-7260-4d29-95a2-662695493fdd`,'
         },
         {
