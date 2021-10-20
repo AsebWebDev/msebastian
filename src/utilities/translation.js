@@ -28,6 +28,17 @@ const dict = {
       NEWS_TITLE: "Aktuelles",
       ITEMS: [
         {
+          date: `12/10/2021`,
+          title: `Der SWR hat einen Radiobeitrag zum Thema "Tierbestattung. Tote Haustiere – Entsorgen oder beerdigen?" veröffentlicht, für den ich interviewt wurde.`,
+          link: 'https://www.swr.de/swr2/wissen/tote-haustiere-entsorgen-oder-beerdigen-100.html'
+        },
+        {
+          date: `19/09/2021`,
+          title: `Im Spiegel ist ein Artikel zum Thema "Pferdemisshandlung bei Olympia. Sollte der Leistungssport auf Tiere verzichten?" erschienen, in dem 
+          Interviewausschnitte mit mit enthalten sind. 
+          link: 'https://www.spiegel.de/sport/reitsport-in-der-diskussion-viele-sagen-es-ist-eine-sauerei-was-die-mit-dem-pferd-anstellt-a-39c30865-7260-4d29-95a2-662695493fdd`,'
+        },
+        {
           date: `16/09/2021`,
           title: `Ab dem 30.09.2021 wird das Theaterstück "Spezies" der Gruppe "Oh!Darling", das ich wissenschaftlich beraten habe, in Zürch aufgeführt.`,
           link: 'https://www.kulturzueri.ch/kulturdatenbank-zurich/veranstaltungen/41451-3150-oh-darling/'
@@ -159,6 +170,10 @@ const dict = {
           link: `https://link.springer.com/article/10.1007/s11614-021-00450-3`
         },
         {
+          author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2021, i. E.)`,
+          title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Agriculture & Human Values`,
+        },
+        {
           author: `Sebastian, Marcel/Seeliger, Martin (2021, i.E.)`,
           title: `Die Re-Regulierung der Schlachthofarbeit in der Corona-Krise. Eingereicht bei Arbeit. Zeitschrift für Arbeitsforschung, Arbeitsgestaltung und Arbeitspolitik`,
         },
@@ -176,10 +191,7 @@ const dict = {
 
       PUBLICATIONS_2_HEADER: `Artikel in Begutachtung`,
       PUBLICATIONS_2_ITEMS: [
-        {
-          author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2021)`,
-          title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Eingereicht bei Agriculture & Human Values (revise & resubmit)`,
-        },
+        
         {
           author: `Sebastian, Marcel/Seeliger, Martin (2021)`,
           title: `The Re-Regulation of Slaughterhouse Labor during the Covid-19-Crisis. Eingereicht bei Global Labour Journal.`,
