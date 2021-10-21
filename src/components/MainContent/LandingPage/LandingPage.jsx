@@ -1,3 +1,4 @@
+import React from 'react';
 import { Image } from 'semantic-ui-react';
 import { isMobile } from '../../../utilities/helpers'
 import headerPic from '../../../assets/images/header.png'

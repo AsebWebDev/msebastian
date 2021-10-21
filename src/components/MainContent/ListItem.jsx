@@ -1,3 +1,4 @@
+import React from 'react';
 import { List } from "semantic-ui-react";
 import { dict } from '../../utilities/translation';
 import "./ListItem.scss";
