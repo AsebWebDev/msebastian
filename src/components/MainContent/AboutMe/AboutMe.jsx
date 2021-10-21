@@ -8,9 +8,6 @@ export default function AboutMe() {
                 <Image src="portrait1.jpg" size='medium' alt="portrait of Dr. Sebastian"/>
                 <Card.Content>
                     <Card.Header>Dr. Marcel Sebastian</Card.Header>
-                    {/* <Card.Meta>
-                        <span className='date'>anno 1984</span>
-                    </Card.Meta> */}
                     <Card.Description>
                         <h1>{t('de', 'ABOUT_ME', 'ABOUT_ME_TITLE')}</h1>
                         <p>{t('de', 'ABOUT_ME', 'ABOUT_ME_SUMMARY')}</p>
