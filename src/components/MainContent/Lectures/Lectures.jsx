@@ -1,25 +1,28 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Container, Header, List} from 'semantic-ui-react';
 import ListItem from '../ListItem'
 import { dict } from '../../../utilities/translation'
+import { LanguageContext } from "../../../App";
 
 import './Lectures.scss'
 
 export default function Lectures() {
+    const lang = useContext(LanguageContext);
+
     return (
         <Container text id='lectures'>
-          <Header inverted as='h1'>{dict.de.LECTURES.LECTURES_TITLE}</Header>
+          <Header inverted as='h1'>{dict[lang].LECTURES.LECTURES_TITLE}</Header>
 
             {/* Vorträge auf wissenschaftlichen Tagungen */}
-            <Header color='blue' inverted as='h2'>{dict.de.LECTURES.LECTURES_1_HEADER}</Header>
+            <Header color='blue' inverted as='h2'>{dict[lang].LECTURES.LECTURES_1_HEADER}</Header>
             <List inverted divided relaxed >
-              {dict.de.LECTURES.LECTURES_1_ITEMS.map(lecture => <ListItem header={lecture.dateandvenue} metaText={lecture.title}/>)}
+              {dict[lang].LECTURES.LECTURES_1_ITEMS.map(lecture => <ListItem header={lecture.dateandvenue} metaText={lecture.title}/>)}
             </List>
 
             {/* Vorträgen auf Einladung wissenschaftlicher Organisationen*/}
-            <Header color='blue' inverted as='h2'>{dict.de.LECTURES.LECTURES_2_HEADER}</Header>
+            <Header color='blue' inverted as='h2'>{dict[lang].LECTURES.LECTURES_2_HEADER}</Header>
             <List inverted divided relaxed >
-              {dict.de.LECTURES.LECTURES_2_ITEMS.map(lecture => <ListItem header={lecture.dateandvenue} metaText={lecture.title}/>)}
+              {dict[lang].LECTURES.LECTURES_2_ITEMS.map(lecture => <ListItem header={lecture.dateandvenue} metaText={lecture.title}/>)}
             </List>
         </Container>
     )
