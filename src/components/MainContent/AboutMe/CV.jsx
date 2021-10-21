@@ -1,3 +1,4 @@
+import React from 'react';
 import { Header, List } from "semantic-ui-react";
 import t from "../../../utilities/translation";
 import ListItem from '../ListItem'

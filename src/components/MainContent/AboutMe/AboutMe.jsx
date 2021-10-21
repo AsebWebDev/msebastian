@@ -1,3 +1,4 @@
+import React from 'react';
 import t from '../../../utilities/translation'
 import { Card, Image } from 'semantic-ui-react'
 
