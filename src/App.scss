@@ -1,5 +1,5 @@
-// Utilities
 @import "./utilities/variables";
+
 #App {
   margin: 0;
 
@@ -23,12 +23,6 @@
         padding-right: 2%;
       }
     }
-
-    .language-switch {
-      display: inline-flex;
-      align-items: center;
-      margin: 0 2rem;
-    }
   }
   
   @include lg {
@@ -37,8 +31,6 @@
     }
   }
 }
-
-
 
 .ui.segment {
   border: none !important;
