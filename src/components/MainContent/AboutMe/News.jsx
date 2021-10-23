@@ -1,16 +1,20 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import { Header, List } from "semantic-ui-react";
 import t from "../../../utilities/translation";
 import { dict } from "../../../utilities/translation";
+import { LanguageContext } from '../../../App';
+
 
 export default function CV() {
+  const lang = useContext(LanguageContext);
+
   return (
     <>
       <Header color="blue" as="h1">
-        {t("de", "NEWS", "NEWS_TITLE")}
+        {t(lang, "NEWS", "NEWS_TITLE")}
       </Header>
       <List divided relaxed>
-        {dict.de.NEWS.ITEMS.map((news) => (
+        {dict[lang].NEWS.ITEMS.map((news) => (
           <List.Item dark={true}>
             <List.Icon
               name="globe"
@@ -28,7 +32,7 @@ export default function CV() {
                   href={news.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                ><strong>{dict.de.MISC.LINK}</strong></a>
+                ><strong>{dict[lang].MISC.LINK}</strong></a>
               </List.Description>
             </List.Content>
           </List.Item>

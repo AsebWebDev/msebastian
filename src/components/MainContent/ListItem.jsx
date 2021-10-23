@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from "react";
 import { List } from "semantic-ui-react";
-import { dict } from '../../utilities/translation';
+import { dict } from "../../utilities/translation";
+import { LanguageContext } from "../../App";
+
 import "./ListItem.scss";
 
 function ListItem({ header, link, metaText, dark }) {
+  const lang = useContext(LanguageContext);
+
   return (
     <List.Item id="list-item">
       <List.Icon
@@ -25,7 +29,7 @@ function ListItem({ header, link, metaText, dark }) {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <strong>{dict.de.MISC.LINK}</strong>
+                <strong>{dict[lang].MISC.LINK}</strong>
               </a>
             </>
           )}
