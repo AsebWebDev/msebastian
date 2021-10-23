@@ -1,10 +1,6 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom";
 import {
-  Checkbox,
-  Flag,
   Grid,
-  Header,
   Icon,
   Menu,
   Segment,
@@ -14,8 +10,10 @@ import t from "./utilities/translation";
 import "./App.scss";
 import MainContent from "./components/MainContent/MainContent";
 import PressModal from "./components/MainContent/Press/PressModal";
+import Header from "./components/Common/Header/Header";
 import { languages } from "./utilities/translation";
 import { isMobile as checkIsMobile } from './utilities/helpers'
+import LanguageSwitcher from "./components/Common/LanguageSwitcher/LanguageSwitcher";
 const LanguageContext = React.createContext({languages});
 
 function App() {
@@ -56,27 +54,8 @@ function App() {
                   </Menu.Item>
               }
             </div>
-            {showHeader && ( 
-              <>
-                <div>
-                    <Header id="header1" as="h1">
-                      Dr. Marcel Sebastian
-                    </Header>
-                  
-                </div>
-                <div className="email">
-                  <Icon name="mail" size="big" />
-                  <a href="mailto:kontakt@marcelsebastian.de">
-                    kontakt@marcelsebastian.de
-                  </a>
-                </div>
-              </>
-            )}
-            <div className="language-switch">
-              <Flag name="de" />
-              <Checkbox toggle onChange={toggleLanguage} checked={lang === 'en'} />
-              <Flag name="us" />
-            </div>
+            {showHeader && <Header />}
+            <LanguageSwitcher onChange={toggleLanguage} checked={lang === 'en'}/>
           </Sidebar>
         </Grid.Column>
         <Grid.Column>
