@@ -5,6 +5,7 @@ const de = {
   MISC: {
     MENUE: `Menü`,
     LINK: `Link zum Artikel`,
+    CONTACT: `Kontakt`,
   },
 
   // ===================================================================

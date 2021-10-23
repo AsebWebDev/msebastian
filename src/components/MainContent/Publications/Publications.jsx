@@ -3,23 +3,25 @@ import { Container, Header, List } from "semantic-ui-react";
 import ListItem from "../ListItem";
 import { dict } from "../../../utilities/translation";
 import { LanguageContext } from "../../../App";
+import { isMobile } from '../../../utilities/helpers';
 import "./Publications.scss";
 
 export default function Publications() {
   const lang = useContext(LanguageContext);
+  const inverted = !isMobile();
 
   return (
     <Container text id="publications">
-      <Header inverted as="h1">
+      <Header inverted={inverted} as="h1">
         {dict[lang].PUBLICATIONS.PUBLICATIONS_TITLE}
       </Header>
 
       {/* Artikel in Fachzeitschriften */}
 
-      <Header color="blue" inverted as="h2">
+      <Header color="blue" inverted={inverted} as="h2">
         {dict[lang].PUBLICATIONS.PUBLICATIONS_1_HEADER}
       </Header>
-      <List inverted divided relaxed>
+      <List inverted={inverted} divided relaxed>
         {dict[lang].PUBLICATIONS.PUBLICATIONS_1_ITEMS.map(
           (publication) => (
             <ListItem
@@ -33,10 +35,10 @@ export default function Publications() {
 
       {/* Artikel in Begutachtung */}
 
-      <Header color="blue" inverted as="h2">
+      <Header color="blue" inverted={inverted} as="h2">
         {dict[lang].PUBLICATIONS.PUBLICATIONS_2_HEADER}
       </Header>
-      <List inverted divided relaxed>
+      <List inverted={inverted} divided relaxed>
         {dict[lang].PUBLICATIONS.PUBLICATIONS_2_ITEMS.map(
           (publication) => (
             <ListItem
@@ -49,10 +51,10 @@ export default function Publications() {
       </List>
 
       {/* Artikel in wissenschaftlichen Sammelbänden */}
-      <Header color="blue" inverted as="h2">
+      <Header color="blue" inverted={inverted} as="h2">
         {dict[lang].PUBLICATIONS.PUBLICATIONS_3_HEADER}
       </Header>
-      <List inverted divided relaxed>
+      <List inverted={inverted} divided relaxed>
         {dict[lang].PUBLICATIONS.PUBLICATIONS_3_ITEMS.map(
           (publication) => (
             <ListItem
@@ -65,10 +67,10 @@ export default function Publications() {
       </List>
 
       {/* Wissenschaftsjournalistische und andere Artikel */}
-      <Header color="blue" inverted as="h2">
+      <Header color="blue" inverted={inverted} as="h2">
         {dict[lang].PUBLICATIONS.PUBLICATIONS_4_HEADER}
       </Header>
-      <List inverted divided relaxed>
+      <List inverted={inverted} divided relaxed>
         {dict[lang].PUBLICATIONS.PUBLICATIONS_4_ITEMS.map(
           (publication) => (
             <ListItem
@@ -81,10 +83,10 @@ export default function Publications() {
       </List>
 
       {/* Tagungsberichte und Rezensionen */}
-      <Header color="blue" inverted as="h2">
+      <Header color="blue" inverted={inverted} as="h2">
         {dict[lang].PUBLICATIONS.PUBLICATIONS_5_HEADER}
       </Header>
-      <List inverted divided relaxed>
+      <List inverted={inverted} divided relaxed>
         {dict[lang].PUBLICATIONS.PUBLICATIONS_5_ITEMS.map(
           (publication) => (
             <ListItem

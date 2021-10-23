@@ -5,10 +5,9 @@ import { LanguageContext } from "../../../App";
 
 export default function AboutMe() {
   const lang = useContext(LanguageContext);
-  console.log("🚀 ~ file: AboutMe.jsx ~ line 8 ~ AboutMe ~ lang", lang)
 
   return (
-    <Card>
+    <Card id="aboutme">
       <Image
         src="portrait1.jpg"
         size="medium"

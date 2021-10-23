@@ -1,15 +1,17 @@
 #lectures {
-  height: 100vh;
-  overflow: auto;
-  padding: 10% 4% 4% 4%!important;
-  background-color:rgba(0, 0, 0, 0.7);
+  height: 100%;
+  padding: 10% 4% 4% 4% !important;
 
-
-  .ui.list>.item a {
+  .ui.list > .item a {
     cursor: auto;
   }
-  
-  .ui.list>.item a.header {
-    color: white!important;
+
+  .ui.list > .item a.header {
+    color: white !important;
+  }
+
+  @media (min-width: 767px) {
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
   }
 }

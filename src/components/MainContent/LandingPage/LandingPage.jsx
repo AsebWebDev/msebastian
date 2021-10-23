@@ -7,7 +7,7 @@ import './LandingPage.scss'
 function LandingPage() {
     return (
         <div id="landing-page">
-          <Image src={headerPic} alt="lettering of name" size={isMobile() ? "medium" : "huge"}/>
+          <Image src={headerPic} alt="lettering of name" size={!isMobile() && "huge"}/>
         </div>
     )
 }

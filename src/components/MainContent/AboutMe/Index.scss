@@ -1,18 +1,24 @@
 #aboutme-index {
   padding: 5% 0 0 5%!important;
   height: 100%;
-  
+
   .ui.list>.item a.header {
     color: black!important;
   }
+}
+
+#aboutme {
+  margin-left: 1rem;
 }
 
 .cv {
   width: 70%;
 }
 
-.price {
-  padding-left: 5%;
+@media only screen and (max-width: 767px) {
+  #aboutme-index  {
+    padding: 20% 0 0 5%!important;
+  }
 }
 
 
