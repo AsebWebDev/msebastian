@@ -15,12 +15,16 @@ import "./App.scss";
 import MainContent from "./components/MainContent/MainContent";
 import PressModal from "./components/MainContent/Press/PressModal";
 import { languages } from "./utilities/translation";
-
+import { isMobile as checkIsMobile } from './utilities/helpers'
 const LanguageContext = React.createContext({languages});
 
 function App() {
-  const localStorageLanguage = localStorage.getItem('languageCode')
+  const localStorageLanguage = localStorage.getItem('languageCode');
   const [lang, setLang] = useState(localStorageLanguage ?? languages.de);
+  const isMobile = checkIsMobile();
+  const [menuIsVisible, setMenuIsVisible] = useState(!checkIsMobile());
+  const showHeader = !isMobile;
+
   if (localStorageLanguage === undefined || localStorageLanguage !== lang) localStorage.setItem("languageCode", lang)
 
   const toggleLanguage = () => {
@@ -35,7 +39,6 @@ function App() {
         <Grid.Column>
           <Sidebar
             as={Menu}
-            animation="push"
             className="page-header"
             direction="top"
             icon="labeled"
@@ -44,23 +47,31 @@ function App() {
             width="thin"
           >
             <div>
-              <Menu.Item as="a" href="/">
-                <Icon name="home" />
-              </Menu.Item>
+              {isMobile 
+                ? <Menu.Item>
+                    <Icon name="bars" onClick={() => setMenuIsVisible(!menuIsVisible)}/>
+                  </Menu.Item>
+                : <Menu.Item as="a" href="/">
+                    <Icon name="home" />
+                  </Menu.Item>
+              }
             </div>
-            <div>
-              {useLocation().pathname !== "/" && (
-                <Header id="header1" as="h1">
-                  Dr. Marcel Sebastian
-                </Header>
-              )}
-            </div>
-            <div className="email">
-              <Icon name="mail" size="big" />
-              <a href="mailto:kontakt@marcelsebastian.de">
-                kontakt@marcelsebastian.de
-              </a>
-            </div>
+            {showHeader && ( 
+              <>
+                <div>
+                    <Header id="header1" as="h1">
+                      Dr. Marcel Sebastian
+                    </Header>
+                  
+                </div>
+                <div className="email">
+                  <Icon name="mail" size="big" />
+                  <a href="mailto:kontakt@marcelsebastian.de">
+                    kontakt@marcelsebastian.de
+                  </a>
+                </div>
+              </>
+            )}
             <div className="language-switch">
               <Flag name="de" />
               <Checkbox toggle onChange={toggleLanguage} checked={lang === 'en'} />
@@ -72,10 +83,11 @@ function App() {
           <Sidebar.Pushable as={Segment}>
             <Sidebar
               as={Menu}
+              animation={isMobile ? "overlay" : "push"}
               icon="labeled"
               inverted
               vertical
-              visible={true}
+              visible={menuIsVisible}
               width="thin"
             >
               <Menu.Item as="a" href="/aboutme">
@@ -100,6 +112,10 @@ function App() {
                 <Icon name='star' />
                 {t(lang, 'WORKSHOPANDCOUNSELLING_TITLE')}
               </Menu.Item> */}
+              {isMobile && <Menu.Item as="a" href="mailto:kontakt@marcelsebastian.de">
+                <Icon name="mail" size="big" />
+                {t(lang, "MISC", "CONTACT")}
+              </Menu.Item>}
             </Sidebar>
 
             <Sidebar.Pusher>

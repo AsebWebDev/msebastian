@@ -11,5 +11,16 @@
         background: url('../../../assets/images/marcel-portrait_frontseite.jpg') no-repeat ;
         background-size: cover;
         background-clip: border-box;
+        background-position: center center;
+        background-attachment: fixed;
     }
+}
+
+@media only screen and (max-width: 767px) {
+  #landing-page {
+    // TODO: Use optimized BG Picture
+    /* The file size of this background image is 93% smaller
+    to improve page load speed on mobile internet connections */
+    background: url('../../../assets/images/Jaemtland.jpg');
+  }
 }
