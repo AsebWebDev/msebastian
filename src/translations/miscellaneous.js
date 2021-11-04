@@ -2,13 +2,15 @@ const misc = {
   de: {
     MISC: {
       MENUE: `Menü`,
-      LINK: `Link zum Artikel`,
+      LINKTOARTICLE: `Link zum Artikel`,
+      LINKTOFILE: `Link zur Datei`,
     },
   },
   en: {
     MISC: {
       MENUE: `Menu`,
-      LINK: `Link to article`,
+      LINKTOARTICLE: `Link to article`,
+      LINKTOFILE: `Link to file`,
     },
   },
 };

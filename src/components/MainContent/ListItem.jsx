@@ -7,6 +7,8 @@ import "./ListItem.scss";
 
 function ListItem({ withBullets=true, header, link, metaText, dark }) {
   const lang = useContext(LanguageContext);
+  const linkIsDownload = link?.endsWith('.pdf')
+  const linkText = linkIsDownload ? 'LINKTOFILE' : 'LINKTOARTICLE'
   return (
     <List.Item id="list-item">
       {withBullets && <List.Icon
@@ -25,10 +27,11 @@ function ListItem({ withBullets=true, header, link, metaText, dark }) {
               <br />
               <a
                 href={link}
+                download={linkIsDownload}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <strong>{dict[lang].MISC.LINK}</strong>
+                <strong>{dict[lang].MISC[linkText]}</strong>
               </a>
             </>
           )}

@@ -32,7 +32,7 @@ export default function CV() {
                   href={news.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                ><strong>{dict[lang].MISC.LINK}</strong></a>
+                ><strong>{dict[lang].MISC.LINKTOARTICLE}</strong></a>
               </List.Description>
             </List.Content>
           </List.Item>
