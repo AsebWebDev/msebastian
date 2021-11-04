@@ -461,6 +461,14 @@ const en = {
   WORKSHOPANDCOUNSELLING: {
     WORKSHOPANDCOUNSELLING_TITLE: `Workshop & Beratung`,
   },
+
+  // ===================================================================
+  // P U B L I C   S P E A K I N G 
+  // ===================================================================
+
+  PUBLICSPEAKING: {
+    PUBLICSPEAKING_TITLE: `Public Speaking`,
+  },
 };
 
 export default en

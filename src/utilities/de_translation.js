@@ -322,7 +322,7 @@ const de = {
   // ===================================================================
 
   LECTURES: {
-    LECTURES_TITLE: `Vorträge`,
+    LECTURES_TITLE: `Wissenschaftliche Vorträge`,
 
     // Vorträge auf wissenschaftlichen Tagungen
     LECTURES_1_HEADER: `Vorträge auf wissenschaftlichen Tagungen`,
@@ -487,6 +487,14 @@ const de = {
 
   WORKSHOPANDCOUNSELLING: {
     WORKSHOPANDCOUNSELLING_TITLE: `Workshop & Beratung`,
+  },
+
+  // ===================================================================
+  // P U B L I C   S P E A K I N G 
+  // ===================================================================
+
+  PUBLICSPEAKING: {
+    PUBLICSPEAKING_TITLE: `Public Speaking`,
   },
 };
 

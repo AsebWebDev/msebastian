@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import {
-  Checkbox,
-  Flag,
   Grid,
   Icon,
   Menu,
@@ -88,8 +86,7 @@ function App() {
                 {t(lang, "LECTURES", "LECTURES_TITLE")}
               </Menu.Item>
               <PressModal />
-              {/* TODO: FOR SECOND RELEASE */}
-              {/* <Menu.Item as='a' href='/workshopsandcounselling'>
+              <Menu.Item as='a' href='/workshopsandcounselling'>
                 <Icon name='star' />
                 {t(lang, 'WORKSHOPANDCOUNSELLING_TITLE')}
               </Menu.Item> */}
