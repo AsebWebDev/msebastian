@@ -1,6 +1,6 @@
 import React, { useContext }  from 'react'
 import { Container, Header } from "semantic-ui-react";
-import { dict } from "../../../utilities/translation";
+import { dict } from "../../../translations";
 import { LanguageContext } from "../../../App";
 import './WorkshopsAndCounselling.scss'
 

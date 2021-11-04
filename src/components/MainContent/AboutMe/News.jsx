@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import { Header, List } from "semantic-ui-react";
-import t from "../../../utilities/translation";
-import { dict } from "../../../utilities/translation";
+import t from "../../../translations";
+import { dict } from "../../../translations";
 import { LanguageContext } from '../../../App';
 
 
