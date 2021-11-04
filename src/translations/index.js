@@ -8,7 +8,7 @@ import publications from './publications';
 import lectures from './lectures';
 import press from './press';
 import ws from './ws';
-import publicspeakings from './publicspeakings';
+import publicspeaking from './publicspeaking';
 
 const translation = (lang) => ({
   ...miscellaneous[lang], 
@@ -21,7 +21,7 @@ const translation = (lang) => ({
   ...lectures[lang], 
   ...press[lang], 
   ...ws[lang], 
-  ...publicspeakings[lang], 
+  ...publicspeaking[lang], 
 });
 
 const languages = { de: 'de', en: 'en' };

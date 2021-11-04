@@ -5,16 +5,15 @@ import { LanguageContext } from "../../App";
 
 import "./ListItem.scss";
 
-function ListItem({ header, link, metaText, dark }) {
+function ListItem({ withBullets=true, header, link, metaText, dark }) {
   const lang = useContext(LanguageContext);
-
   return (
     <List.Item id="list-item">
-      <List.Icon
+      {withBullets && <List.Icon
         size="small"
         name={link ? "globe" : "circle"}
         verticalAlign="middle"
-      />
+      />}
       <List.Content>
         <List.Header>{header}</List.Header>
         <List.Description
