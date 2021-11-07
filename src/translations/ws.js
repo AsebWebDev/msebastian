@@ -1,7 +1,7 @@
 const ws = {
   de: {
     WORKSHOPANDCOUNSELLING: {
-      WORKSHOPANDCOUNSELLING_TITLE: `Workshop & Beratung`,
+      WORKSHOPANDCOUNSELLING_TITLE: `Workshops & Beratung`,
       WORKSHOPANDCOUNSELLING_1_HEADER: `Wissenschaftliche Beratung`,
       WORKSHOPANDCOUNSELLING_1_ITEMS: [
         {
