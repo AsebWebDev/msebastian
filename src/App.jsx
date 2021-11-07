@@ -82,14 +82,18 @@ function App() {
                 )}
               </Menu.Item>
               <Menu.Item as="a" href="/lectures">
-                <Icon name="star" />
+                <Icon name="lightbulb" />
                 {t(lang, "LECTURES", "LECTURES_TITLE")}
               </Menu.Item>
               <PressModal />
               <Menu.Item as='a' href='/workshopsandcounselling'>
-                <Icon name='star' />
-                {t(lang, 'WORKSHOPANDCOUNSELLING_TITLE')}
-              </Menu.Item> */}
+                <Icon name='users' />
+                {t(lang, "WORKSHOPANDCOUNSELLING", "WORKSHOPANDCOUNSELLING_TITLE")}
+              </Menu.Item>
+              <Menu.Item as='a' href='/publicspeaking'>
+                <Icon name='comment outline' />
+                {t(lang, "PUBLICSPEAKING", "PUBLICSPEAKING_TITLE")}
+              </Menu.Item>
               {isMobile && <Menu.Item as="a" href="mailto:kontakt@marcelsebastian.de">
                 <Icon name="mail" size="big" />
                 {t(lang, "MISC", "CONTACT")}
