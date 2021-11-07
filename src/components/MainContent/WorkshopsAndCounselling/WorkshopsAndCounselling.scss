@@ -3,14 +3,20 @@
 #ws {
   height: 101vh;
   overflow: auto;
-  padding: 6% 4% 4% 4%!important;
+  padding: 6% 4% 0% 4%!important;
   background-color:rgba(0, 0, 0, 0.7);
+
+
 
   .ui.list>.item a {
     cursor: auto;
   }
+
+  .ui.inverted.list>.item .header {
+    color: rgba(255, 255, 255, 0.6) !important;
+  }
   
   .ui.list>.item a.header {
-    color: white!important;
+    color: rgba(255, 255, 255, 0.6) !important;
   }
 }
