@@ -13,27 +13,16 @@ export default function PublicSpeaking() {
     <Container text id="publicspeaking">
       <Header inverted as="h1">
         {dict[lang].PUBLICSPEAKING.PUBLICSPEAKING_TITLE}
-      </Header>  
+      </Header>
 
       {/* Public Speaking */}
       <Header inverted as="h4">
-        {
-          dict[lang].PUBLICSPEAKING
-            .PUBLICSPEAKING_1_HEADER
-        }
+        {dict[lang].PUBLICSPEAKING.PUBLICSPEAKING_1_HEADER}
       </Header>
       <List inverted divided relaxed>
-        {dict[
-          lang
-        ].PUBLICSPEAKING.PUBLICSPEAKING_1_ITEMS.map(
-          (ps) => (
-            <ListItem
-              withBullets={false}
-              header={ps.title}
-              metaText={ps.text}
-            />
-          )
-        )}
+        {dict[lang].PUBLICSPEAKING.PUBLICSPEAKING_1_ITEMS.map((ps) => (
+          <ListItem withBullets={false} header={ps.title} metaText={ps.text} />
+        ))}
       </List>
     </Container>
   );
