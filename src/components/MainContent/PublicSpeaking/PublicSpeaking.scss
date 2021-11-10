@@ -3,7 +3,7 @@
 #publicspeaking {
   height: 101vh;
   overflow: auto;
-  padding: 6% 4% 4% 4%!important;
+  padding: 20% 4% 4% 4%!important;
   background-color:rgba(0, 0, 0, 0.7);
 
   .ui.list>.item a {
@@ -13,4 +13,8 @@
   .ui.list>.item a.header {
     color: white!important;
   }
+
+  @media (min-width: 767px) {
+    padding: 6% 4% 4% 4%!important;  
+  }  
 }

@@ -3,10 +3,8 @@
 #ws {
   height: 101vh;
   overflow: auto;
-  padding: 6% 4% 0% 4%!important;
+  padding: 20% 4% 0% 4%!important;
   background-color:rgba(0, 0, 0, 0.7);
-
-
 
   .ui.list>.item a {
     cursor: auto;
@@ -19,4 +17,8 @@
   .ui.list>.item a.header {
     color: rgba(255, 255, 255, 0.6) !important;
   }
+
+  @media (min-width: 767px) {
+    padding: 6% 4% 4% 4%!important;  
+  }  
 }

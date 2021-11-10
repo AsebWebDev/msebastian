@@ -1,6 +1,7 @@
 const misc = {
   de: {
     MISC: {
+      CONTACT: `Kontakt`,
       MENUE: `Menü`,
       LINKTOARTICLE: `Link zum Artikel`,
       LINKTOFILE: `Link zur Datei`,
@@ -8,6 +9,7 @@ const misc = {
   },
   en: {
     MISC: {
+      CONTACT: `Contact`,
       MENUE: `Menu`,
       LINKTOARTICLE: `Link to article`,
       LINKTOFILE: `Link to file`,

@@ -1,20 +1,16 @@
 import React from "react";
 import {
     Checkbox,
-    Flag,
+    Label,
   } from "semantic-ui-react";
 import './LanguageSwitcher.scss'
 
 function LanguageSwitcher({checked, onChange}) {
   return (
     <div className="language-switch">
-      <Flag name="de" />
-      <Checkbox
-        toggle
-        onChange={onChange}
-        checked={checked}
-      />
-      <Flag name="us" />
+      <Label>DE</Label>
+      <Checkbox toggle onChange={onChange} checked={checked} />
+      <Label>EN</Label>
     </div>
   );
 }

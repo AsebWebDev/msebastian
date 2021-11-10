@@ -11,7 +11,7 @@ import "./App.scss";
 import MainContent from "./components/MainContent/MainContent";
 import PressModal from "./components/MainContent/Press/PressModal";
 import Header from "./components/Common/Header/Header";
-import { languages } from "./utilities/translation";
+import { languages } from "./translations/";
 import { isMobile as checkIsMobile } from './utilities/helpers'
 import LanguageSwitcher from "./components/Common/LanguageSwitcher/LanguageSwitcher";
 const LanguageContext = React.createContext({languages});
