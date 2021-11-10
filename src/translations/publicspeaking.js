@@ -2,7 +2,7 @@ const publicspeaking = {
   de: {
     PUBLICSPEAKING: {
       PUBLICSPEAKING_TITLE: `Public Speaking`,
-      PUBLICSPEAKING_1_HEADER: `Sie können mich als Referent für einen Vortrag einladen. Die Liste meiner Vorträge auf Einladung zivilgesellschaftlicher und politischer Organisationen gibt Ihnen einen Eindruck möglicher Themen. Natürlich können auch individuelle Schwerpunkte besprochen werden.`,
+      PUBLICSPEAKING_1_HEADER: `Sie können mich als Referenten für einen Vortrag einladen. Die Liste meiner Vorträge auf Einladung zivilgesellschaftlicher und politischer Organisationen gibt Ihnen einen Eindruck möglicher Themen. Natürlich können auch individuelle Schwerpunkte besprochen werden.`,
       PUBLICSPEAKING_1_ITEMS: [
         {
           title: `10.03.2021, Berlin,`,
@@ -47,7 +47,7 @@ const publicspeaking = {
   en: {
     PUBLICSPEAKING: {
       PUBLICSPEAKING_TITLE: `Public Speaking`,
-      PUBLICSPEAKING_1_HEADER: `Sie können mich als Referent für einen Vortrag einladen. Die Liste meiner Vorträge auf Einladung zivilgesellschaftlicher und politischer Organisationen gibt Ihnen einen Eindruck möglicher Themen. Natürlich können auch individuelle Schwerpunkte besprochen werden.`,
+      PUBLICSPEAKING_1_HEADER: `Sie können mich als Referenten für einen Vortrag einladen. Die Liste meiner Vorträge auf Einladung zivilgesellschaftlicher und politischer Organisationen gibt Ihnen einen Eindruck möglicher Themen. Natürlich können auch individuelle Schwerpunkte besprochen werden.`,
       PUBLICSPEAKING_1_ITEMS: [
         {
           title: `10.03.2021, Berlin,`,
