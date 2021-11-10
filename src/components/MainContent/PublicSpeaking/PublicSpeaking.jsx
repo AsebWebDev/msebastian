@@ -16,8 +16,7 @@ export default function PublicSpeaking() {
       </Header>  
 
       {/* Public Speaking */}
-
-      <Header color="blue" inverted as="h2">
+      <Header inverted as="h4">
         {
           dict[lang].PUBLICSPEAKING
             .PUBLICSPEAKING_1_HEADER
