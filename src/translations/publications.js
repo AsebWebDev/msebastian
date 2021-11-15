@@ -9,7 +9,7 @@ const publications = {
       PUBLICATIONS_1_ITEMS: [
         {
           author: `Sebastian, Marcel (2021)`,
-          title: `The influence of social movements on policy change: Delayed success in banning dog slaughter in Germany. Social Movement Studies`,
+          title: `The influence of social movements on policy change: Delayed success in banning dog slaughter in Germany. Social Movement Studies. Online first:`,
           link: `https://doi.org/10.1080/14742837.2021.1967126`,
         },
         {
@@ -18,8 +18,9 @@ const publications = {
           link: `https://link.springer.com/article/10.1007/s11614-021-00450-3`,
         },
         {
-          author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2021, i. E.)`,
-          title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Agriculture & Human Values`,
+          author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2021)`,
+          title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Agriculture & Human Values. Online first:`,
+          link: `https://link.springer.com/article/10.1007/s10460-021-10272-4`,
         },
         {
           author: `Sebastian, Marcel/Seeliger, Martin (2021, i.E.)`,
@@ -147,8 +148,8 @@ const publications = {
       PUBLICATIONS_5_HEADER: `Tagungsberichte und Rezensionen`,
       PUBLICATIONS_5_ITEMS: [
         {
-          author: `Sebastian, Marcel (2021, i.E.)`,
-          title: `Die Objektifizierung der Tiere als Revolution im Stall (Rezension zu Settele, Veronika: Revolution im Stall. Landwirtschaftliche Tierhaltung in Deutschland 1945–1990.), in: Tierstudien.`,
+          author: `Sebastian, Marcel (2021)`,
+          title: `Die Objektifizierung der Tiere als Revolution im Stall (Rezension zu Settele, Veronika: Revolution im Stall. Landwirtschaftliche Tierhaltung in Deutschland 1945–1990.), in: Tierstudien. 20, S. 171-172.`,
         },
         {
           author: `Sebastian, Marcel (2014)`,
@@ -169,7 +170,7 @@ const publications = {
     PUBLICATIONS: {
       PUBLICATIONS_TITLE: `Publications`,
 
-      // Artikel in Fachzeitschriften
+      // Journals Articles
 
       PUBLICATIONS_1_HEADER: `Journal Articles`,
       PUBLICATIONS_1_ITEMS: [
@@ -184,8 +185,9 @@ const publications = {
           link: `https://link.springer.com/article/10.1007/s11614-021-00450-3`,
         },
         {
-          author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2021, forthcoming)`,
-          title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Agriculture & Human Values`,
+          author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2021)`,
+          title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Agriculture & Human Values. Online first:`,
+          link: `https://link.springer.com/article/10.1007/s10460-021-10272-4`,
         },
         {
           author: `Sebastian, Marcel/Seeliger, Martin (2021, forthcoming)`,
@@ -201,9 +203,9 @@ const publications = {
         },
       ],
 
-      // Artikel in Begutachtung
+      // Articles under review
 
-      PUBLICATIONS_2_HEADER: `Artikel in Begutachtung`,
+      PUBLICATIONS_2_HEADER: `Articles under review`,
       PUBLICATIONS_2_ITEMS: [
         {
           author: `Sebastian, Marcel/Seeliger, Martin (2021)`,
@@ -213,7 +215,7 @@ const publications = {
 
       // Artikel in wissenschaftlichen Sammelbänden
 
-      PUBLICATIONS_3_HEADER: `Artikel in wissenschaftlichen Sammelbänden`,
+      PUBLICATIONS_3_HEADER: `Articles in scientific anthologies`,
       PUBLICATIONS_3_ITEMS: [
         {
           author: `Sebastian, Marcel (2019)`,
@@ -258,7 +260,7 @@ const publications = {
       ],
 
       // Wissenschaftsjournalistische und andere Artikel
-      PUBLICATIONS_4_HEADER: `Wissenschaftsjournalistische und andere Artikel`,
+      PUBLICATIONS_4_HEADER: `Science journalism and other articles`,
       PUBLICATIONS_4_ITEMS: [
         {
           author: `Sebastian, Marcel (2021)`,
@@ -310,11 +312,11 @@ const publications = {
         },
       ],
       // Tagungsberichte und Rezensionen
-      PUBLICATIONS_5_HEADER: `Tagungsberichte und Rezensionen`,
+      PUBLICATIONS_5_HEADER: `Conference reports and book reviews`,
       PUBLICATIONS_5_ITEMS: [
         {
-          author: `Sebastian, Marcel (2021, i.E.)`,
-          title: `Die Objektifizierung der Tiere als Revolution im Stall (Rezension zu Settele, Veronika: Revolution im Stall. Landwirtschaftliche Tierhaltung in Deutschland 1945–1990.), in: Tierstudien.`,
+          author: `Sebastian, Marcel (2021)`,
+          title: `Die Objektifizierung der Tiere als Revolution im Stall (Rezension zu Settele, Veronika: Revolution im Stall. Landwirtschaftliche Tierhaltung in Deutschland 1945–1990.), in: Tierstudien 20, S. 171-172.`,
         },
         {
           author: `Sebastian, Marcel (2014)`,
