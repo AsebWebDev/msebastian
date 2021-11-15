@@ -92,6 +92,10 @@ const lectures = {
       LECTURES_2_HEADER: `Vorträgen auf Einladung wissenschaftlicher Organisationen`,
       LECTURES_2_ITEMS: [
         {
+          title: `“Human-Animal Studies: Kulturelle und institutionelle Rahmungen von Gewalt an Tieren”, Vortrag im Rahmen der Ringvorlesung 10 Minuten Soziologie,`,
+          dateandvenue: `27.10.2021, Universität Passau.`,
+        },
+        {
           title: `“Wie Schlachthofarbeiter mit dem Töten von Tieren umgehen – soziologische Perspektiven auf den Schlachthof als Arbeitsplatz”, Vortrag auf Einladung im neuzeitlichen Forschungskolloquium am Fachbereich Gesellschaftswissenschaften, `,
           dateandvenue: `11.02.2019, Universität Kassel.`,
         },
@@ -148,10 +152,10 @@ const lectures = {
   },
   en: {
     LECTURES: {
-      LECTURES_TITLE: `Vorträge`,
+      LECTURES_TITLE: `Lectures`,
 
-      // Presentations at adademic conferences
-      LECTURES_1_HEADER: `Presentation at adademic conferences`,
+      // Presentations at academic conferences
+      LECTURES_1_HEADER: `Presentations at academic conferences`,
       LECTURES_1_ITEMS: [
         {
           title: `„Mensch-Tier-Beziehungen zwischen Sorge und Kontrolle“ Präsentation during the Ad-Hoc-Group „Die ökologische Gesellschaft unter Spannung: Sorgediskurse im 'Anthropozän'“ at the 40th Congress of Deutsche Gesellschaft für Soziologie,`,
@@ -238,6 +242,10 @@ const lectures = {
       // Vorträgen auf Einladung wissenschaftlicher Organisationen
       LECTURES_2_HEADER: `Invited lectures`,
       LECTURES_2_ITEMS: [
+        {
+          title: `“Human-Animal Studies: Kulturelle und institutionelle Rahmungen von Gewalt an Tieren”, during the lecture series 10 Minuten Soziologie,`,
+          dateandvenue: `27.10.2021, University of Passau.`,
+        },
         {
           title: `“Wie Schlachthofarbeiter mit dem Töten von Tieren umgehen – soziologische Perspektiven auf den Schlachthof als Arbeitsplatz”, Lecture on invitation to "Neuzeitliches Forschungskolloquium am Fachbereich Gesellschaftswissenschaften", `,
           dateandvenue: `11.02.2019, University of Kassel.`,
