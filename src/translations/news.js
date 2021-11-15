@@ -4,6 +4,16 @@ const news = {
       NEWS_TITLE: "Aktuelles",
       ITEMS: [
         {
+          date: `08/11/2021`,
+          title: `Mein Artikel "Institutional persistence despite cultural change: a historical case study of the re-categorization of dogs in Germany" (gemeinsam mit Birgit Pfau Effinger) wurde in Agriculture and Human Values veröffentlicht.`,
+          link: "https://www.swr.de/swr2/wissen/tote-haustiere-entsorgen-oder-beerdigen-100.html",
+        },
+        {
+          date: `08/11/2021`,
+          title: `Ich wurde für die ZDF-Sendung "Volle Kanne" interviewt. Der Beitrag ist online zu sehen:`,
+          link: "https://www.zdf.de/verbraucher/volle-kanne/volle-kanne-mit-francine-jordi-vom-8-november-2021-100.html",
+        },
+        {
           date: `12/10/2021`,
           title: `Der SWR hat einen Radiobeitrag zum Thema "Tierbestattung. Tote Haustiere – Entsorgen oder beerdigen?" veröffentlicht, für den ich interviewt wurde.`,
           link: "https://www.swr.de/swr2/wissen/tote-haustiere-entsorgen-oder-beerdigen-100.html",
@@ -46,6 +56,11 @@ const news = {
     NEWS: {
       NEWS_TITLE: "News",
       ITEMS: [
+        {
+          date: `08/11/2021`,
+          title: `My article "Institutional persistence despite cultural change: a historical case study of the re-categorization of dogs in Germany" (together with Birgit Pfau-Effinger) has been published in Agriculture and Human Values.`,
+          link: "https://doi.org/10.1080/14742837.2021.1967126",
+        },
         {
           date: `02/09/2021`,
           title: `My article "The influence of social movements on policy change: delayed success in banning dog slaughter in Germany" has been published in Social Movement Studies .`,
