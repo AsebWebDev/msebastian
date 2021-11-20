@@ -6,7 +6,7 @@ const aboutme = {
                           thematischer Schwerpunkt ist die Soziologie der Mensch-Tier-Beziehung. Dieses Thema untersuche ich unter anderem
                           aus der Perspektive des historischen Institutionalismus, der Arbeitssoziologie, der Emotionssoziologie, der
                           Gewaltsoziologie und der sozialen Bewegungsforschung.
-                          Zudem bin ich als freier wissenschaftlicher Autor tätig und biete wissenschaftliche Beratung, Workshops sowie Vorträge an.
+                          Zudem bin ich als freier wissenschaftlicher Autor tätig und biete wissenschaftliche Beratung, Workshops sowie Vorträge an.`
           },
     },
     en: {
