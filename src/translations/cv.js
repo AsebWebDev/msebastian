@@ -48,7 +48,7 @@ const cv = {
         {
           date: `01/2021`,
           title: `PhD in Sociology (summa cum laude, "with honours")`,
-          text: `cumulative dissertation: “Cultural and Institutional Frames of Human-Animal Relations`,
+          text: `Cumulative dissertation: “Cultural and Institutional Frames of Human-Animal Relations`,
         },
         {
           date: `08/2019 - 08/2020`,
