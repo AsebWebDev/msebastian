@@ -41,7 +41,7 @@ const ws = {
       WORKSHOPANDCOUNSELLING_2_HEADER: `Workshops`,
       WORKSHOPANDCOUNSELLING_2_ITEMS: [
         {
-          title: `I two workshops in German titled "To pet or to eat? Our complicated relationship with animals and why it needs a reboot" and "The conflict over meat and the diet of the future". Contact me for details on English language workshops.`,
+          title: `I offer workshops in German titled "To pet or to eat? Our complicated relationship with animals and why it needs a reboot" and "The conflict over meat and the diet of the future". Contact me for details on English language workshops.`,
         },
       ],
     },
