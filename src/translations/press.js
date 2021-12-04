@@ -12,8 +12,8 @@ const press = {
     },
     en: {
         PRESS: {
-            PRESS_TITLE: `Presse`,
-            PRESS_MODAL_TITLE: `Presse-PDF`,
+            PRESS_TITLE: `Media`,
+            PRESS_MODAL_TITLE: `Media-PDF`,
             PRESS_MODAL_HEADER: `Collection of my media appearances`,
             PRESS_MODAL_DESCRIPTION: `This file contains a list of media appearances by Dr. Marcel Sebastian.`,
             PRESS_MODAL_QUESTION: `Do you want to download this file? `,
