@@ -6,12 +6,12 @@ import {
   Segment,
   Sidebar,
 } from "semantic-ui-react";
-import t from "./utilities/translation";
+import t from "./translations";
 import "./App.scss";
 import MainContent from "./components/MainContent/MainContent";
 import PressModal from "./components/MainContent/Press/PressModal";
 import Header from "./components/Common/Header/Header";
-import { languages } from "./utilities/translation";
+import { languages } from "./translations/";
 import { isMobile as checkIsMobile } from './utilities/helpers'
 import LanguageSwitcher from "./components/Common/LanguageSwitcher/LanguageSwitcher";
 const LanguageContext = React.createContext({languages});
@@ -82,15 +82,18 @@ function App() {
                 )}
               </Menu.Item>
               <Menu.Item as="a" href="/lectures">
-                <Icon name="star" />
+                <Icon name="lightbulb" />
                 {t(lang, "LECTURES", "LECTURES_TITLE")}
               </Menu.Item>
               <PressModal />
-              {/* TODO: FOR SECOND RELEASE */}
-              {/* <Menu.Item as='a' href='/workshopsandcounselling'>
-                <Icon name='star' />
-                {t(lang, 'WORKSHOPANDCOUNSELLING_TITLE')}
-              </Menu.Item> */}
+              <Menu.Item as='a' href='/workshopsandcounselling'>
+                <Icon name='users' />
+                {t(lang, "WORKSHOPANDCOUNSELLING", "WORKSHOPANDCOUNSELLING_TITLE")}
+              </Menu.Item>
+              <Menu.Item as='a' href='/publicspeaking'>
+                <Icon name='comment outline' />
+                {t(lang, "PUBLICSPEAKING", "PUBLICSPEAKING_TITLE")}
+              </Menu.Item>
               {isMobile && <Menu.Item as="a" href="mailto:kontakt@marcelsebastian.de">
                 <Icon name="mail" size="big" />
                 {t(lang, "MISC", "CONTACT")}

@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Container, Header, List} from 'semantic-ui-react';
 import ListItem from '../ListItem'
-import { dict } from '../../../utilities/translation'
+import { dict } from "../../../translations";
 import { LanguageContext } from "../../../App";
 import './Lectures.scss'
 import { isMobile } from '../../../utilities/helpers';

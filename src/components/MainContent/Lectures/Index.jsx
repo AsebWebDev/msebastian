@@ -5,7 +5,7 @@ import './Index.scss'
 
 function Index() {
     return (
-        <Grid stackable columns={3} id="lectures-index" classname="test">
+        <Grid stackable columns={3} id="lectures-index">
             <Grid.Row>
             <Grid.Column width={5}/>
             <Grid.Column width={10}>

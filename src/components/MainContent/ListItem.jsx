@@ -1,20 +1,21 @@
 import React, { useContext } from "react";
 import { List } from "semantic-ui-react";
-import { dict } from "../../utilities/translation";
+import { dict } from "../../translations";
 import { LanguageContext } from "../../App";
 
 import "./ListItem.scss";
 
-function ListItem({ header, link, metaText, dark }) {
+function ListItem({ withBullets=true, header, link, metaText, dark }) {
   const lang = useContext(LanguageContext);
-
+  const linkIsDownload = link?.endsWith('.pdf')
+  const linkText = linkIsDownload ? 'LINKTOFILE' : 'LINKTOARTICLE'
   return (
     <List.Item id="list-item">
-      <List.Icon
+      {withBullets && <List.Icon
         size="small"
         name={link ? "globe" : "circle"}
         verticalAlign="middle"
-      />
+      />}
       <List.Content>
         <List.Header>{header}</List.Header>
         <List.Description
@@ -26,10 +27,11 @@ function ListItem({ header, link, metaText, dark }) {
               <br />
               <a
                 href={link}
+                download={linkIsDownload}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <strong>{dict[lang].MISC.LINK}</strong>
+                <strong>{dict[lang].MISC[linkText]}</strong>
               </a>
             </>
           )}

@@ -7,7 +7,7 @@ import {
   Menu,
   Modal,
 } from "semantic-ui-react";
-import t from "../../../utilities/translation.js";
+import t from "../../../translations";
 import { LanguageContext } from "../../../App";
 
 function PressModal() {

@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import { Header, List } from "semantic-ui-react";
-import t from "../../../utilities/translation";
-import { dict } from "../../../utilities/translation";
+import t from "../../../translations";
+import { dict } from "../../../translations";
 import { LanguageContext } from '../../../App';
 
 
@@ -32,7 +32,7 @@ export default function CV() {
                   href={news.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                ><strong>{dict[lang].MISC.LINK}</strong></a>
+                ><strong>{dict[lang].MISC.LINKTOARTICLE}</strong></a>
               </List.Description>
             </List.Content>
           </List.Item>

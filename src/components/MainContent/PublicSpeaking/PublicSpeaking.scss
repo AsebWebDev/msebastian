@@ -1,21 +1,17 @@
 @import "../../../utilities/variables";
 
-#ws {
+#publicspeaking {
   height: 101vh;
   overflow: auto;
-  padding: 20% 4% 0% 4%!important;
+  padding: 20% 4% 4% 4%!important;
   background-color:rgba(0, 0, 0, 0.7);
 
   .ui.list>.item a {
     cursor: auto;
   }
-
-  .ui.inverted.list>.item .header {
-    color: rgba(255, 255, 255, 0.6) !important;
-  }
   
   .ui.list>.item a.header {
-    color: rgba(255, 255, 255, 0.6) !important;
+    color: white!important;
   }
 
   @media (min-width: 767px) {
