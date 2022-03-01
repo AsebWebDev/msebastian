@@ -4,6 +4,11 @@ const cv = {
       CV_TITLE: "Curriculum Vitae",
       ITEMS: [
         {
+          date: `Seit 03/2022`,
+          title: `Postdoc an der Professur für die Soziologie des Kultur- und Institutionenwandels an der Universität Hamburg`,
+          text: ``,
+        },
+        {
           date: `Seit 08/2021`,
           title: `Wissenschaftsautor`,
           text: `Buchprojekt im Kösel Verlag (Penguin Random House) zur Ambivalenz der Mensch-Tier-Beziehung`,
@@ -23,9 +28,20 @@ const cv = {
           title: `Wissenschaftlicher Mitarbeiter der Universität Hamburg`,
           text: ``,
         },
+        
         {
           date: `04/2013 - 05/2016`,
           title: `Promotionsstipendiat der Heinrich-Böll-Stiftung`,
+          text: ``,
+        },
+        {
+          date: `04/2014 - 10/2014`,
+          title: `Lehrbeauftragter an der Universität Hamburg (Fachgebiet Soziologie)`,
+          text: ``,
+        },
+        {
+          date: `04/2013 - 10/2013`,
+          title: `Lehrbeauftragter an der Universität Hamburg (Fachgebiet Soziologie)`,
           text: ``,
         },
         {
@@ -40,6 +56,11 @@ const cv = {
     CV: {
       CV_TITLE: "Curriculum Vitae",
       ITEMS: [
+          {
+          date: `Since 03/2022`,
+          title: `Postdoc at the Professorship for the sociology of Cultural Change and Institutional Change`,
+          text: ``,
+        },
         {
           date: `Since 08/2021`,
           title: `Academic Author`,
@@ -63,6 +84,16 @@ const cv = {
         {
           date: `04/2013 - 05/2016`,
           title: `PhD Scholarship from the Heinrich-Böll-Stiftung`,
+          text: ``,
+        },
+        {
+          date: `04/2014 - 10/2014`,
+          title: `Lecturer at the University of Hamburg (Subject area Sociology)`,
+          text: ``,
+        },
+        {
+          date: `04/2013 - 10/2013`,
+          title: `Lecturer at the University of Hamburg (Subject area Sociology)`,
           text: ``,
         },
         {
