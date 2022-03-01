@@ -91,6 +91,10 @@ const lectures = {
       // Vorträgen auf Einladung wissenschaftlicher Organisationen
       LECTURES_2_HEADER: `Vorträgen auf Einladung wissenschaftlicher Organisationen`,
       LECTURES_2_ITEMS: [
+         {
+          title: `“Der lange Weg zum Verbot des Hundeschlachtens: Institutionelle Persistenz trotz kulturellem Wandel.”, Vortrag im Rahmen der Ringvorlesung Animate Theologies - ein (un-)mögliches Projekt?,`,
+          dateandvenue: `29.11.2021, digital.`,
+        },
         {
           title: `“Human-Animal Studies: Kulturelle und institutionelle Rahmungen von Gewalt an Tieren”, Vortrag im Rahmen der Ringvorlesung 10 Minuten Soziologie,`,
           dateandvenue: `27.10.2021, Universität Passau.`,
