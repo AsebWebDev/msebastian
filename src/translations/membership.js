@@ -10,7 +10,7 @@ const membership = {
                 title: `Group for Society and Animals Studies, Universität Hamburg}`,
               },
               {
-                title: `Deutsche Gesellschaft für Soziologie und DGS-Sektion Land-, Agrar- und Ernährungssoziologie sowie Arbeitsgemeinschaft Gewaltsoziologie in der DGS`,
+                title: `Deutsche Gesellschaft für Soziologie (DGS-Sektionen Land-, Agrar- und Ernährungssoziologie und Politische Soziologie sowie Arbeitskreis Soziologie der Nachhaltigkeit und Arbeitsgemeinschaft Gewaltsoziologie)`,
               },
               { title: `Minding Animals International` },
               {
@@ -30,7 +30,7 @@ const membership = {
                 title: `Group for Society and Animals Studies, University of Hamburg}`,
               },
               {
-                title: `German Sociological Association, including Section "Land-, Agrar- und Ernährungssoziologie" as well as working group "Sociology of Violence"`,
+                title: `German Sociological Association, including Sections "Land-, Agrar- und Ernährungssoziologie", "Political Sociology" as well as working groups "Sociology of Sustainabiilty" and "Sociology of Violence"`,
               },
               { title: `Minding Animals International` },
               {
