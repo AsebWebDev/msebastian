@@ -50,7 +50,7 @@
     ]
   },
   "devDependencies": {
-    "nodemon": "^2.0.14",
-    "sass": "^1.43.2"
+    "nodemon": "^2.0.15",
+    "sass": "^1.49.9"
   }
 }
