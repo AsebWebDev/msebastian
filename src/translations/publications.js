@@ -10,7 +10,16 @@ const publications = {
         
         {
           author: `Sebastian, Marcel/Seeliger, Martin (2022, i.E.)`,
-          title: `Die Re-Regulierung der Schlachthofarbeit in der Corona-Krise. Arbeit. Zeitschrift für Arbeitsforschung, Arbeitsgestaltung und Arbeitspolitik`,
+          title: `The influence of discursive power of unions in the swift Re-Regulation of Slaughterhouse Labor during the Covid-19-Crisis in Germany. Global Labour Journal.`,
+        },
+        {
+          author: `Sebastian, Marcel/Seeliger, Martin (2022)`,
+          title: `Die Re-Regulierung der Schlachthofarbeit in der Corona-Krise. Arbeit. Zeitschrift für Arbeitsforschung, Arbeitsgestaltung und Arbeitspolitik, 31(1-2), S. 235-254.`,
+        },
+        {
+          author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2022)`,
+          title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Agriculture & Human Values, 39, S. 473–485.`,
+          link: `https://link.springer.com/article/10.1007/s10460-021-10272-4`,
         },
         {
           author: `Sebastian, Marcel (2021)`,
@@ -23,27 +32,12 @@ const publications = {
           link: `https://link.springer.com/article/10.1007/s11614-021-00450-3`,
         },
         {
-          author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2021)`,
-          title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Agriculture & Human Values. Online first:`,
-          link: `https://link.springer.com/article/10.1007/s10460-021-10272-4`,
-        },
-        {
           author: `Sebastian, Marcel (2013)`,
           title: `Tierliebe im Schlachthof? Das Interesse am Wohl der Tiere als Verarbeitungsstrategie von Gewalt im Schlachthof. Tierstudien, 3/2013, S. 102-113`,
         },
         {
           author: `Buschka, Sonja/Gutjahr, Julia/Sebastian, Marcel (2012)`,
           title: `Gesellschaft und Tiere - Grundlagen und Perspektiven der  Human- Animal Studies. Aus Politk und Zeitgeschichte, 62 (8-9), S. 20-26.`,
-        },
-      ],
-
-      // Artikel in Begutachtung
-
-      PUBLICATIONS_2_HEADER: `Artikel in Begutachtung`,
-      PUBLICATIONS_2_ITEMS: [
-        {
-          author: `Sebastian, Marcel/Seeliger, Martin (2022)`,
-          title: `The Re-Regulation of Slaughterhouse Labor during the Covid-19-Crisis. Eingereicht bei Global Labour Journal. (review and resubmit)`,
         },
       ],
 
@@ -108,6 +102,11 @@ const publications = {
       // Wissenschaftsjournalistische und andere Artikel
       PUBLICATIONS_4_HEADER: `Wissenschaftsjournalistische und andere Artikel`,
       PUBLICATIONS_4_ITEMS: [
+        {
+          author: `Sebastian, Marcel (2022, i.E.)`,
+          title: `Streicheln oder schlachten? Warum unser Verhältnis zu Tieren so kompliziert ist und was das über uns aussagt. München: Kösel Verlag.`,
+          link: https://www.penguinrandomhouse.de/Paperback/Streicheln-oder-Schlachten/Marcel-Sebastian/Koesel/e596726.rhd
+        },
         {
           author: `Sebastian, Marcel (2021)`,
           title: `Jemand oder etwas? Unser ambivalentes Verhältnis zu Tieren. In: Museum Ernst Kestner (Hrsg.): August. Thema: Das Tier und Wir. Oldenburg: Isensee Verlag, S.6-9.`,
@@ -188,21 +187,18 @@ const publications = {
       PUBLICATIONS_1_HEADER: `Journal Articles`,
       PUBLICATIONS_1_ITEMS: [
         {
-          author: `Sebastian, Marcel (2023, forthcoming)`,
-          title: `Soziologie der Mensch-Tier-Beziehung. In Alena Bleicher, Matthias Groß und Marco Sonnberger (Hrsg.): Handbuch Umweltsoziologie. Wiesbaden: Springer VS`,
+          author: `Sebastian, Marcel/Seeliger, Martin (2022,forthcoming)`,
+          title: `The influence of discursive power of unions in the swift Re-Regulation of Slaughterhouse Labor during the Covid-19-Crisis in Germany. Global Labour Journal.`,
         },
         {
-          author: `Sebastian, Marcel (2022, forthcoming)`,
-          title: `Der Schlachthof als vergeschlechtlichter Raum – männliche Sichtweisen auf die Abwesenheit von Frauen bei der Schlachtung. In Carla Wember, Jana Rückert-John (Hrsg.): Geschlecht und Ernährung: Perspektiven sozialen Wandels. Opladen: Verlag Barbara Budrich.`,
-        },
-         {
-          author: `Sebastian, Marcel (2022, forthcoming)`,
-          title: `Human-Animal Studies: Kulturelle und institutionelle Rahmungen von Gewalt an Tieren. In Benkel, Thorsten (Hrsg.): 10 Minuten Soziologie: Gewalt. Bielefeld: Transcript.`,
+          author: `Sebastian, Marcel/Seeliger, Martin (2022)`,
+          title: `Die Re-Regulierung der Schlachthofarbeit in der Corona-Krise. Arbeit. Zeitschrift für Arbeitsforschung, Arbeitsgestaltung und Arbeitspolitik, 31(1-2), S. 235-254.`,
+          link: https://www.degruyter.com/document/doi/10.1515/arbeit-2022-0013/pdf
         },
         {
-          author: `Sebastian, Marcel/Seeliger, Martin (2022, forthcoming)`,
-          title: `Die Re-Regulierung der Schlachthofarbeit in der Corona-Krise. Arbeit. Zeitschrift für Arbeitsforschung, Arbeitsgestaltung und Arbeitspolitik`,
-        },
+          author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2022)`,
+          title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Agriculture & Human Values, 39, S. 473–485.`,
+          link: `https://link.springer.com/article/10.1007/s10460-021-10272-4`,
         {
           author: `Sebastian, Marcel (2021)`,
           title: `The influence of social movements on policy change: Delayed success in banning dog slaughter in Germany. Social Movement Studies`,
@@ -214,11 +210,6 @@ const publications = {
           link: `https://link.springer.com/article/10.1007/s11614-021-00450-3`,
         },
         {
-          author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2021)`,
-          title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Agriculture & Human Values. Online first:`,
-          link: `https://link.springer.com/article/10.1007/s10460-021-10272-4`,
-        },
-        {
           author: `Sebastian, Marcel (2013)`,
           title: `Tierliebe im Schlachthof? Das Interesse am Wohl der Tiere als Verarbeitungsstrategie von Gewalt im Schlachthof. Tierstudien, 3/2013, S. 102-113`,
         },
@@ -228,20 +219,22 @@ const publications = {
         },
       ],
 
-      // Articles under review
-
-      PUBLICATIONS_2_HEADER: `Articles under review`,
-      PUBLICATIONS_2_ITEMS: [
-        {
-          author: `Sebastian, Marcel/Seeliger, Martin (2021)`,
-          title: `The Re-Regulation of Slaughterhouse Labor during the Covid-19-Crisis. Eingereicht bei Global Labour Journal.`,
-        },
-      ],
-
       // Artikel in wissenschaftlichen Sammelbänden
 
       PUBLICATIONS_3_HEADER: `Articles in scientific anthologies`,
       PUBLICATIONS_3_ITEMS: [
+        {
+          author: `Sebastian, Marcel (2023, forthcoming)`,
+          title: `Soziologie der Mensch-Tier-Beziehung. In Alena Bleicher, Matthias Groß und Marco Sonnberger (Hrsg.): Handbuch Umweltsoziologie. Wiesbaden: Springer VS`,
+        },
+        {
+          author: `Sebastian, Marcel (2022, forthcoming)`,
+          title: `Der Schlachthof als vergeschlechtlichter Raum – männliche Sichtweisen auf die Abwesenheit von Frauen bei der Schlachtung. In Carla Wember, Jana Rückert-John (Hrsg.): Geschlecht und Ernährung: Perspektiven sozialen Wandels. Opladen: Verlag Barbara Budrich.`,
+        },
+         {
+          author: `Sebastian, Marcel (2022, forthcoming)`,
+          title: `Human-Animal Studies: Kulturelle und institutionelle Rahmungen von Gewalt an Tieren. In Benkel, Thorsten (Hrsg.): 10 Minuten Soziologie: Gewalt. Bielefeld: Transcript.`,
+        },
         {
           author: `Sebastian, Marcel (2019)`,
           title: `„Subjekt oder Objekt? Ambivalente gesellschaftliche Mensch-Tier-Beziehungen als Resultat kultureller Aushandlungs- und Wandlungsprozesse.“. In: Diehl, Elke/Tuider, Jens (Hrsg.) Haben Tiere Rechte? Schriftenreihe der Bundeszentrale für Poltische Bildung, Bonn: Bundeszentrale für politische Bildung, S. 69-81.`,
@@ -288,6 +281,11 @@ const publications = {
       PUBLICATIONS_4_HEADER: `Science journalism and other articles`,
       PUBLICATIONS_4_ITEMS: [
         {
+          author: `Sebastian, Marcel (2022, i.E.)`,
+          title: `Streicheln oder schlachten? Warum unser Verhältnis zu Tieren so kompliziert ist und was das über uns aussagt. München: Kösel Verlag.`,
+          link: https://www.penguinrandomhouse.de/Paperback/Streicheln-oder-Schlachten/Marcel-Sebastian/Koesel/e596726.rhd
+        },
+                {
           author: `Sebastian, Marcel (2021)`,
           title: `Jemand oder etwas? Unser ambivalentes Verhältnis zu Tieren. In: Museum Ernst Kestner (Hrsg.): August. Thema: Das Tier und Wir. Oldenburg: Isensee Verlag, S.6-9.`,
         },
