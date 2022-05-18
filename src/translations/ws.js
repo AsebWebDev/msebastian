@@ -12,6 +12,10 @@ const ws = {
 
       WORKSHOPANDCOUNSELLING_2_HEADER: `Workshops`,
       WORKSHOPANDCOUNSELLING_2_ITEMS: [
+         {
+          reference: `Referenzen: FREDA - Die Grüne Zukunftsakademie; Deutsches Rotes Kreuz FreiWerk`,
+        },
+        
         {
           title: `Workshop "Streicheln oder essen? Unser kompliziertes Verhältnis zu Tieren und warum es einen Neustart braucht"`,
           text: `Unsere Beziehung zu Tieren ist kompliziert. Warum streicheln wir Katzen und essen Schweine? Wieso sind einige Hunde geliebte Freunde, während an anderen Tierversuchstiere durchgeführt werden? Wie werden wir uns in Zukunft ernähren? Und wie verändern Klimawandel und das Artensterben unsere Beziehung zu Tieren?
