@@ -3,6 +3,12 @@ const cv = {
     CV: {
       CV_TITLE: "Curriculum Vitae",
       ITEMS: [
+        
+        {
+          date: `Seit 05/2022`,
+          title: `Research Fellow am Future Matters Project im Forschugnsprojekt "Wirkungspotentiale der Klimabewegung"`,
+          text: ``,
+        },
         {
           date: `Seit 03/2022`,
           title: `Postdoc an der Professur für die Soziologie des Kultur- und Institutionenwandels an der Universität Hamburg`,
@@ -56,7 +62,12 @@ const cv = {
     CV: {
       CV_TITLE: "Curriculum Vitae",
       ITEMS: [
-          {
+        {
+          date: `Since 05/2022`,
+          title: `Research Fellow at the Future Matters Project in th research project "Impact potential of the climate movement"`,
+          text: ``,
+        },        
+        {
           date: `Since 03/2022`,
           title: `Postdoc at the Professorship for the sociology of Cultural Change and Institutional Change`,
           text: ``,
