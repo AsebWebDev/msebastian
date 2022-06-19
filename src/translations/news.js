@@ -70,7 +70,7 @@ const news = {
           date: `28/03/2022`,
           title: `My article "Die Re-Regulierung der Schlachthofarbeit in der Corona-Krise" (tpgether with Martin Seeliger) was published in Arbeit - Zeitschrift für Arbeitsforschung, Arbeitsgestaltung und Arbeitspolitik.`,
           link: "https://www.degruyter.com/journal/key/arbeit/html",
-        
+        },
         {
           date: `08/11/2021`,
           title: `My article "Institutional persistence despite cultural change: a historical case study of the re-categorization of dogs in Germany" (together with Birgit Pfau-Effinger) has been published in Agriculture and Human Values.`,

@@ -7,7 +7,6 @@ const publications = {
 
       PUBLICATIONS_1_HEADER: `Artikel in Fachzeitschriften`,
       PUBLICATIONS_1_ITEMS: [
-        
         {
           author: `Sebastian, Marcel/Seeliger, Martin (2022, i.E.)`,
           title: `The influence of discursive power of unions in the swift Re-Regulation of Slaughterhouse Labor during the Covid-19-Crisis in Germany. Global Labour Journal.`,
@@ -53,7 +52,7 @@ const publications = {
           author: `Sebastian, Marcel (2022, i.E.)`,
           title: `Der Schlachthof als vergeschlechtlichter Raum – männliche Sichtweisen auf die Abwesenheit von Frauen bei der Schlachtung. In Carla Wember, Jana Rückert-John (Hrsg.): Geschlecht und Ernährung: Perspektiven sozialen Wandels. Opladen: Verlag Barbara Budrich.`,
         },
-         {
+        {
           author: `Sebastian, Marcel (2022, i.E.)`,
           title: `Human-Animal Studies: Kulturelle und institutionelle Rahmungen von Gewalt an Tieren. In Benkel, Thorsten (Hrsg.): 10 Minuten Soziologie: Gewalt. Bielefeld: Transcript.`,
         },
@@ -105,7 +104,7 @@ const publications = {
         {
           author: `Sebastian, Marcel (2022, i.E.)`,
           title: `Streicheln oder schlachten? Warum unser Verhältnis zu Tieren so kompliziert ist und was das über uns aussagt. München: Kösel Verlag.`,
-          link: https://www.penguinrandomhouse.de/Paperback/Streicheln-oder-Schlachten/Marcel-Sebastian/Koesel/e596726.rhd
+          link: `https://www.penguinrandomhouse.de/Paperback/Streicheln-oder-Schlachten/Marcel-Sebastian/Koesel/e596726.rhd`,
         },
         {
           author: `Sebastian, Marcel (2021)`,
@@ -193,12 +192,13 @@ const publications = {
         {
           author: `Sebastian, Marcel/Seeliger, Martin (2022)`,
           title: `Die Re-Regulierung der Schlachthofarbeit in der Corona-Krise. Arbeit. Zeitschrift für Arbeitsforschung, Arbeitsgestaltung und Arbeitspolitik, 31(1-2), S. 235-254.`,
-          link: https://www.degruyter.com/document/doi/10.1515/arbeit-2022-0013/pdf
+          link: `https://www.degruyter.com/document/doi/10.1515/arbeit-2022-0013/pdf`,
         },
         {
           author: `Pfau-Effinger, Birgit/Sebastian, Marcel (2022)`,
           title: `Institutional persistence despite cultural change: A historical case study of the re-categorization of dogs in Germany. Agriculture & Human Values, 39, S. 473–485.`,
           link: `https://link.springer.com/article/10.1007/s10460-021-10272-4`,
+        },
         {
           author: `Sebastian, Marcel (2021)`,
           title: `The influence of social movements on policy change: Delayed success in banning dog slaughter in Germany. Social Movement Studies`,
@@ -231,7 +231,7 @@ const publications = {
           author: `Sebastian, Marcel (2022, forthcoming)`,
           title: `Der Schlachthof als vergeschlechtlichter Raum – männliche Sichtweisen auf die Abwesenheit von Frauen bei der Schlachtung. In Carla Wember, Jana Rückert-John (Hrsg.): Geschlecht und Ernährung: Perspektiven sozialen Wandels. Opladen: Verlag Barbara Budrich.`,
         },
-         {
+        {
           author: `Sebastian, Marcel (2022, forthcoming)`,
           title: `Human-Animal Studies: Kulturelle und institutionelle Rahmungen von Gewalt an Tieren. In Benkel, Thorsten (Hrsg.): 10 Minuten Soziologie: Gewalt. Bielefeld: Transcript.`,
         },
@@ -283,9 +283,9 @@ const publications = {
         {
           author: `Sebastian, Marcel (2022, i.E.)`,
           title: `Streicheln oder schlachten? Warum unser Verhältnis zu Tieren so kompliziert ist und was das über uns aussagt. München: Kösel Verlag.`,
-          link: https://www.penguinrandomhouse.de/Paperback/Streicheln-oder-Schlachten/Marcel-Sebastian/Koesel/e596726.rhd
+          link: `https://www.penguinrandomhouse.de/Paperback/Streicheln-oder-Schlachten/Marcel-Sebastian/Koesel/e596726.rhd`,
         },
-                {
+        {
           author: `Sebastian, Marcel (2021)`,
           title: `Jemand oder etwas? Unser ambivalentes Verhältnis zu Tieren. In: Museum Ernst Kestner (Hrsg.): August. Thema: Das Tier und Wir. Oldenburg: Isensee Verlag, S.6-9.`,
         },
