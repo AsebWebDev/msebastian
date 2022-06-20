@@ -14,10 +14,11 @@ export default function CV() {
         {t(lang, "CV", "CV_TITLE")}
       </Header>
       <List divided relaxed>
-        {dict[lang].CV.ITEMS.map((CVItem) => (
+        {dict[lang].CV.ITEMS.map((CVItem, i) => (
           <ListItem
+            key={i} // TODO: add proper key to avoid using index
             header={`${CVItem.date} - ${CVItem.title}`}
-            dark={true}
+            dark
             metaText={`${CVItem.text}`}
           />
         ))}
@@ -26,8 +27,11 @@ export default function CV() {
         {dict[lang].MEMBERSHIP.MEMBERSHIP_TITLE}
       </Header>
       <List>
-        {dict[lang].MEMBERSHIP.ITEMS.map((membership) => (
-          <ListItem header={`${membership.title}`} />
+        {dict[lang].MEMBERSHIP.ITEMS.map((membership, i) => (
+          <ListItem
+            key={i} // TODO: add proper key to avoid using index
+            header={`${membership.title}`}
+          />
         ))}
       </List>
 
@@ -35,11 +39,12 @@ export default function CV() {
         {dict[lang].EXPERT_OPINION.EXPERT_OPINION_TITLE}
       </Header>
       <List>
-        {dict[lang].EXPERT_OPINION.ITEMS.map(
-          (expertOpinion) => (
-            <ListItem header={`${expertOpinion.title}`} />
-          )
-        )}
+        {dict[lang].EXPERT_OPINION.ITEMS.map((expertOpinion, i) => (
+          <ListItem
+            key={i} // TODO: add proper key to avoid using index
+            header={`${expertOpinion.title}`}
+          />
+        ))}
       </List>
     </div>
   );

@@ -11,26 +11,19 @@ export default function WorkshopsAndCounselling() {
   return (
     <Container text id="ws">
       <Header inverted as="h1">
-        {
-          dict[lang].WORKSHOPANDCOUNSELLING
-            .WORKSHOPANDCOUNSELLING_TITLE
-        }
+        {dict[lang].WORKSHOPANDCOUNSELLING.WORKSHOPANDCOUNSELLING_TITLE}
       </Header>
 
       {/* Wissenschaftliche Beratung */}
 
       <Header color="blue" inverted as="h2">
-        {
-          dict[lang].WORKSHOPANDCOUNSELLING
-            .WORKSHOPANDCOUNSELLING_1_HEADER
-        }
+        {dict[lang].WORKSHOPANDCOUNSELLING.WORKSHOPANDCOUNSELLING_1_HEADER}
       </Header>
       <List inverted divided relaxed>
-        {dict[
-          lang
-        ].WORKSHOPANDCOUNSELLING.WORKSHOPANDCOUNSELLING_1_ITEMS.map(
-          (ws) => (
+        {dict[lang].WORKSHOPANDCOUNSELLING.WORKSHOPANDCOUNSELLING_1_ITEMS.map(
+          (ws, i) => (
             <ListItem
+              key={i} // TODO: add proper key to avoid using index
               withBullets={false}
               header={ws.title}
               link={ws.link}
@@ -43,17 +36,13 @@ export default function WorkshopsAndCounselling() {
       {/* Workshops */}
 
       <Header color="blue" inverted as="h2">
-        {
-          dict[lang].WORKSHOPANDCOUNSELLING
-            .WORKSHOPANDCOUNSELLING_2_HEADER
-        }
+        {dict[lang].WORKSHOPANDCOUNSELLING.WORKSHOPANDCOUNSELLING_2_HEADER}
       </Header>
       <List inverted divided relaxed>
-        {dict[
-          lang
-        ].WORKSHOPANDCOUNSELLING.WORKSHOPANDCOUNSELLING_2_ITEMS.map(
-          (ws) => (
+        {dict[lang].WORKSHOPANDCOUNSELLING.WORKSHOPANDCOUNSELLING_2_ITEMS.map(
+          (ws, i) => (
             <ListItem
+              key={i} // TODO: add proper key to avoid using index
               withBullets={false}
               header={ws.title}
               link={ws.link}

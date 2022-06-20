@@ -3,7 +3,7 @@ import { Container, Header, List } from "semantic-ui-react";
 import ListItem from "../ListItem";
 import { dict } from "../../../translations";
 import { LanguageContext } from "../../../App";
-import { isMobile } from '../../../utilities/helpers';
+import { isMobile } from "../../../utilities/helpers";
 import "./Publications.scss";
 
 export default function Publications() {
@@ -22,32 +22,14 @@ export default function Publications() {
         {dict[lang].PUBLICATIONS.PUBLICATIONS_1_HEADER}
       </Header>
       <List inverted={inverted} divided relaxed>
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_1_ITEMS.map(
-          (publication) => (
-            <ListItem
-              header={publication.author}
-              link={publication.link}
-              metaText={publication.title}
-            />
-          )
-        )}
-      </List>
-
-      {/* Artikel in Begutachtung */}
-
-      <Header color="blue" inverted={inverted} as="h2">
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_2_HEADER}
-      </Header>
-      <List inverted={inverted} divided relaxed>
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_2_ITEMS.map(
-          (publication) => (
-            <ListItem
-              header={publication.author}
-              link={publication.link}
-              metaText={publication.title}
-            />
-          )
-        )}
+        {dict[lang].PUBLICATIONS.PUBLICATIONS_1_ITEMS.map((publication, i) => (
+          <ListItem
+            key={i} // TODO: add proper key to avoid using index
+            header={publication.author}
+            link={publication.link}
+            metaText={publication.title}
+          />
+        ))}
       </List>
 
       {/* Artikel in wissenschaftlichen Sammelbänden */}
@@ -55,15 +37,14 @@ export default function Publications() {
         {dict[lang].PUBLICATIONS.PUBLICATIONS_3_HEADER}
       </Header>
       <List inverted={inverted} divided relaxed>
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_3_ITEMS.map(
-          (publication) => (
-            <ListItem
-              header={publication.author}
-              link={publication.link}
-              metaText={publication.title}
-            />
-          )
-        )}
+        {dict[lang].PUBLICATIONS.PUBLICATIONS_3_ITEMS.map((publication, i) => (
+          <ListItem
+            key={i} // TODO: add proper key to avoid using index
+            header={publication.author}
+            link={publication.link}
+            metaText={publication.title}
+          />
+        ))}
       </List>
 
       {/* Wissenschaftsjournalistische und andere Artikel */}
@@ -71,15 +52,14 @@ export default function Publications() {
         {dict[lang].PUBLICATIONS.PUBLICATIONS_4_HEADER}
       </Header>
       <List inverted={inverted} divided relaxed>
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_4_ITEMS.map(
-          (publication) => (
-            <ListItem
-              header={publication.author}
-              link={publication.link}
-              metaText={publication.title}
-            />
-          )
-        )}
+        {dict[lang].PUBLICATIONS.PUBLICATIONS_4_ITEMS.map((publication, i) => (
+          <ListItem
+            key={i} // TODO: add proper key to avoid using index
+            header={publication.author}
+            link={publication.link}
+            metaText={publication.title}
+          />
+        ))}
       </List>
 
       {/* Tagungsberichte und Rezensionen */}
@@ -87,15 +67,14 @@ export default function Publications() {
         {dict[lang].PUBLICATIONS.PUBLICATIONS_5_HEADER}
       </Header>
       <List inverted={inverted} divided relaxed>
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_5_ITEMS.map(
-          (publication) => (
-            <ListItem
-              header={publication.author}
-              link={publication.link}
-              metaText={publication.title}
-            />
-          )
-        )}
+        {dict[lang].PUBLICATIONS.PUBLICATIONS_5_ITEMS.map((publication, i) => (
+          <ListItem
+            key={i} // TODO: add proper key to avoid using index
+            header={publication.author}
+            link={publication.link}
+            metaText={publication.title}
+          />
+        ))}
       </List>
     </Container>
   );

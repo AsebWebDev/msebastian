@@ -20,8 +20,13 @@ export default function PublicSpeaking() {
         {dict[lang].PUBLICSPEAKING.PUBLICSPEAKING_1_HEADER}
       </Header>
       <List inverted divided relaxed>
-        {dict[lang].PUBLICSPEAKING.PUBLICSPEAKING_1_ITEMS.map((ps) => (
-          <ListItem withBullets={false} header={ps.title} metaText={ps.text} />
+        {dict[lang].PUBLICSPEAKING.PUBLICSPEAKING_1_ITEMS.map((ps, i) => (
+          <ListItem
+            key={i} // TODO: add proper key to avoid using index
+            withBullets={false}
+            header={ps.title}
+            metaText={ps.text}
+          />
         ))}
       </List>
     </Container>

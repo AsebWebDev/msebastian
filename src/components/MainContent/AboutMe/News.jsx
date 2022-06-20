@@ -1,9 +1,8 @@
-import React, {useContext} from 'react';
+import React, { useContext } from "react";
 import { Header, List } from "semantic-ui-react";
 import t from "../../../translations";
 import { dict } from "../../../translations";
-import { LanguageContext } from '../../../App';
-
+import { LanguageContext } from "../../../App";
 
 export default function CV() {
   const lang = useContext(LanguageContext);
@@ -15,24 +14,16 @@ export default function CV() {
       </Header>
       <List divided relaxed>
         {dict[lang].NEWS.ITEMS.map((news) => (
-          <List.Item dark={true}>
-            <List.Icon
-              name="globe"
-              size="large"
-              verticalAlign="middle"
-            />
+          <List.Item dark>
+            <List.Icon name="globe" size="large" verticalAlign="middle" />
             <List.Content>
-              <List.Header>
-                  {news.date}
-              </List.Header>
+              <List.Header>{news.date}</List.Header>
               <List.Description>
                 {news.title}
                 <br />
-                <a
-                  href={news.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                ><strong>{dict[lang].MISC.LINKTOARTICLE}</strong></a>
+                <a href={news.link} target="_blank" rel="noopener noreferrer">
+                  <strong>{dict[lang].MISC.LINKTOARTICLE}</strong>
+                </a>
               </List.Description>
             </List.Content>
           </List.Item>
