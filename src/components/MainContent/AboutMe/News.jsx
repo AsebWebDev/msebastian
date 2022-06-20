@@ -13,8 +13,11 @@ export default function CV() {
         {t(lang, "NEWS", "NEWS_TITLE")}
       </Header>
       <List divided relaxed>
-        {dict[lang].NEWS.ITEMS.map((news) => (
-          <List.Item dark>
+        {dict[lang].NEWS.ITEMS.map((news, i) => (
+          <List.Item
+            key={i} // TODO: add proper key to avoid using index
+            dark
+          >
             <List.Icon name="globe" size="large" verticalAlign="middle" />
             <List.Content>
               <List.Header>{news.date}</List.Header>
