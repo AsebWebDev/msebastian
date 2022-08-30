@@ -6,25 +6,42 @@ const lectures = {
       // Vorträge auf wissenschaftlichen Tagungen
       LECTURES_1_HEADER: `Vorträge auf wissenschaftlichen Tagungen`,
       LECTURES_1_ITEMS: [
+               
+        {
+          title: `„Emotional Neutrality as a Work Requirement in the Slaughterhouse" auf der 10. Midterm Conference of ESA-Research Network 11 "Sociology of Emotions"`,
+          dateandvenue: `31.08.2022, Universität Hamburg`,
+        }, 
+        {
+          title: `„Institutional persistence despite cultural change - A new approach to the explanation of institutional stability" auf der 28. International Conference of Europeanists (Paper zur Präsentation angenommen)`,
+          dateandvenue: `01.07.2022, Lissabon, Portugal`,
+        },
+        {
+          title: `„When Dogs Stopped Being 'Slaughter Animals': Why Unintended Cultural Consequences Can Hinder the Prohibition of Institutionalized Violence Against Animals?" im Rahmen der Konferenz "Human-Animal Relations in the Anthropocene: Between the Personal and the Political"`,
+          dateandvenue: `19.06.2022, Tel Aviv, Israel`,
+        },
+        {
+          title: `„Institutional persistence despite cultural change - A new approach to the explanation of institutional stability on the basis of a case study about food policies“, im Rahmen der AFHVS/ASFS Cultivating Connections: Exploring Entry Points Into Sustainable Food Systems Conference`,
+          dateandvenue: `19.05.2022, Athens, Georgia, USA`,
+        },
         {
           title: `„Mensch-Tier-Beziehungen zwischen Sorge und Kontrolle“ Präsentation im Rahmen der Ad-Hoc-Gruppe „Die ökologische Gesellschaft unter Spannung: Sorgediskurse im 'Anthropozän'“ auf dem 40. Kongress der Deutschen Gesellschaft für Soziologie,`,
-          dateandvenue: `21.09.2020, digitaler Kongress.`,
+          dateandvenue: `21.09.2020, digitaler Kongress`,
         },
         {
           title: `„Kultureller Wandel in der Fleischproduktion: Wie Schlachthofarbeiter mit moralischer Stigmatisierung ihrer Arbeit umgehen“, Präsentation im Rahmen der Sektionsveranstaltung der DGS-Sektion ‚Umweltsoziologie‘ „Arbeit in der sozial-ökologischen Transformation – eine Herausforderung für die Umweltsoziologie?“ auf dem 40. Kongress der Deutschen Gesellschaft für Soziologie,`,
-          dateandvenue: `16.09.2020, digitaler Kongress.`,
+          dateandvenue: `16.09.2020, digitaler Kongress`,
         },
         {
           title: `„Wie lassen sich Unterschiede zwischen Schlachthofarbeitern im Umgang mit dem Töten von Tieren erklären?”, Präsentation im Rahmen des Minding Animals Germany Symposium Vienna,`,
-          dateandvenue: `7.10.2018, Messerli Forschungsinstitut, Vetmeduni Wien.`,
+          dateandvenue: `7.10.2018, Messerli Forschungsinstitut, Vetmeduni Wien`,
         },
         {
           title: `„Umgangsweisen von Schlachthofarbeitern mit dem Töten von Tieren“, Präsentation im Rahmen der Ad-Hoc Gruppe „Kultureller Wandel und Ambivalenzen im Mensch-Tier-Verhältnis“ auf dem 39. Kongress der Deutschen Gesellschaft für Soziologie, `,
-          dateandvenue: `26.09.2018, Universität Göttingen.`,
+          dateandvenue: `26.09.2018, Universität Göttingen`,
         },
         {
           title: `“Vegane Schlachter? - Wie lassen sich die Unterschiede zwischen Fleischunternehmen hinsichtlich der Offenheit zur Aufnahme vegetarischer Produkten erklären?“, Präsentation im Rahmen der Sektionsveranstaltung der DGS-Sektion ‚Land-, Agrar- und Ernährungssoziologie‘ „Aktuelle gesellschaftliche Debatten zur sozial-ökologischen Transformation des Ernährungs- und Agrarsystems“ auf dem 39. Kongress der Deutschen Gesellschaft für Soziologie,`,
-          dateandvenue: `25.09.2018, Universität Göttingen.`,
+          dateandvenue: `25.09.2018, Universität Göttingen`,
         },
         {
           title: `„How do Slaughterhouse Workers Handle the Killing of Animals?“, Präsentation im Rahmen der International PhD Conference and Expert Seminar of ESPAnet 2018 New Trends in the Development of Work - Family Policies, Gender and Care - Causes, Dynamics and Consequences”,`,
@@ -32,15 +49,15 @@ const lectures = {
         },
         {
           title: `Teilnahme an Podiumsdiskussion “Animals and the Law I - How Animal Law Relates to Animal Rights and Protection: An International Movement“, im Rahmen der Minding Animal Conference 2018,`,
-          dateandvenue: `18.01.2018, Mexico City.`,
+          dateandvenue: `18.01.2018, Mexico City`,
         },
         {
           title: `“Pandora’s Box – Why the prohibition of dog slaughter in Germany took over 30 Years of political debate“, im Rahmen der Minding Animal Conference 2018, `,
-          dateandvenue: `24.01.2018, Mexico City.`,
+          dateandvenue: `24.01.2018, Mexico City`,
         },
         {
           title: `„Das ist doch eine ganz normale Arbeit!" Sichtweisen von Schlachthofarbeitern auf ihre Arbeit“, im Rahmen der Tagung „Fleisch. Vom Wohlstandssymbol zur Gefahr für die Zukunft“ der Sektion Land- und Agrarsoziologie der Deutschen Gesellschaft für Soziologie,`,
-          dateandvenue: `6.-7.11.2015, Hochschule Fulda.`,
+          dateandvenue: `6.-7.11.2015, Hochschule Fulda`,
         },
         {
           title: `"Sociological Research on Violence against Animals“, im Rahmen der „ICAS Oceania 2015 Conference 'Conflict & Struggle, Resistance & Change' ”,`,
@@ -48,43 +65,43 @@ const lectures = {
         },
         {
           title: `„Ambivalenzen der Arbeitssituation und Umgangsweisen von Schlachthofarbeitern“, im Rahmen der Konferenz „Ökonomien tierischer Produktion Mensch-Nutztier-Beziehungen in industriellen Kontexten“,`,
-          dateandvenue: `30.5.2015, Universität Wien.`,
+          dateandvenue: `30.5.2015, Universität Wien`,
         },
         {
           title: `"Das Mensch-Tier-Verhältnis in der Kritischen Theorie der Frankfurter Schule" (zusammen mit Julia Gutjahr), im Rahmen der Konferenz "Animal Politics. Politische Theorie des Mensch-Tier-Verhältnisses (Frühjahrstagung der Sektion für Politische Theorie und Ideengeschichte in der DVPW),`,
-          dateandvenue: `13.3.2014, Universität Hamburg.`,
+          dateandvenue: `13.3.2014, Universität Hamburg`,
         },
         {
           title: `„Coping with violence: Working in the meat industry" im Rahmen der 3rd European Conference for Critical Animal Studies,`,
-          dateandvenue: `29.11.2013, Universität Karlsruhe.`,
+          dateandvenue: `29.11.2013, Universität Karlsruhe`,
         },
         {
           title: `"Ambivalenzen der Arbeitssituation und Umgangsweisen von Schlachthofarbeitern" im Rahmen des Herbstsymposium der Sektion Land- und Agrarsoziologie der Deutschen Gesellschaft für Soziologie,`,
-          dateandvenue: `9.11.2013, Universität Gießen.`,
+          dateandvenue: `9.11.2013, Universität Gießen`,
         },
         {
           title: `„Coping with Violence: Working in the Meat-Industry“, auf dem 36. Kongress der Deutschen Gesellschaft für Soziologie, Ad-Hoc-Gruppe „Society and Animals. Sociological Analyses of an Ambivalent Relationship“,`,
-          dateandvenue: `5.10.2012, Universität Bochum.`,
+          dateandvenue: `5.10.2012, Universität Bochum`,
         },
         {
           title: `„The Problem of the Domination of Nature & Animals in the Critical Theory of the Frankfurt School", (Zusammen mit Julia Gutjahr) auf der 2nd Annual European Conference for Critical Animal Studies “Reconfiguring the ‘Human’/’Animal’ Binary“,`,
-          dateandvenue: `16.10.2011, Universität Prag.`,
+          dateandvenue: `16.10.2011, Universität Prag`,
         },
         {
           title: `“How is it possible to explain people's indifference towards the violence against animals?” Auf der 2nd Annual European Conference for Critical Animal Studies “Reconfiguring the ‘Human’/’Animal’ Binary“, `,
-          dateandvenue: `15.10.2011, Universität Prag.`,
+          dateandvenue: `15.10.2011, Universität Prag`,
         },
         {
           title: `„Fleisch und die gesellschaftliche Genese der Indifferenz gegenüber der Gewalt an Tieren“ im Rahmen der Konferenz "Fleisch Essen. Das gesellschaftliche Mensch-Tier-Verhältnis und die Bedeutung von Fleisch" der GSA, `,
-          dateandvenue: `1.7.2011, Universität Hamburg.`,
+          dateandvenue: `1.7.2011, Universität Hamburg`,
         },
         {
           title: `"How Is It Possible to Explain People's Indifference Towards the Violence Against Animals?" im Rahmen der 10th Annual North American Conference for Critical Animal Studies: “Thinking About Animals”, `,
-          dateandvenue: `1.4.2011, Brock University, St. Catharines.`,
+          dateandvenue: `1.4.2011, Brock University, St. Catharines`,
         },
         {
           title: `"The Problem of the Domination of Nature & Animals in the Critical Theory of the Frankfurt School" (Zusammen mit Julia Gutjahr) im Rahmen der 10th Annual North American Conference for Critical Animal Studies: “Thinking About Animals”, `,
-          dateandvenue: `31.3.2011, Brock University, St. Catharines.`,
+          dateandvenue: `31.3.2011, Brock University, St. Catharines`,
         },
       ],
 
@@ -161,6 +178,21 @@ const lectures = {
       // Presentations at academic conferences
       LECTURES_1_HEADER: `Presentations at academic conferences`,
       LECTURES_1_ITEMS: [
+         {
+          title: `„Emotional Neutrality as a Work Requirement in the Slaughterhouse" at ther 10th Midterm Conference of ESA-Research Network 11 "Sociology of Emotions"`,
+          dateandvenue: `31.08.2022, University of Hamburg`,
+        }, 
+        {
+          title: `„Institutional persistence despite cultural change - A new approach to the explanation of institutional stability" at the 28th International Conference of Europeanists (paper accepted for presentation)`,
+          dateandvenue: `01.07.2022, Lissabon, Portugal`,
+        },
+        {
+          title: `„When Dogs Stopped Being 'Slaughter Animals': Why Unintended Cultural Consequences Can Hinder the Prohibition of Institutionalized Violence Against Animals?" at the conference "Human-Animal Relations in the Anthropocene: Between the Personal and the Political"`,
+          dateandvenue: `19.06.2022, Tel Aviv, Israel`,
+        },
+        {
+          title: `„Institutional persistence despite cultural change - A new approach to the explanation of institutional stability on the basis of a case study about food policies“, at the AFHVS/ASFS Cultivating Connections: Exploring Entry Points Into Sustainable Food Systems Conference`,
+          dateandvenue: `19.05.2022, Athens, Georgia, USA`,
         {
           title: `„Mensch-Tier-Beziehungen zwischen Sorge und Kontrolle“ Präsentation during the Ad-Hoc-Group „Die ökologische Gesellschaft unter Spannung: Sorgediskurse im 'Anthropozän'“ at the 40th Congress of Deutsche Gesellschaft für Soziologie,`,
           dateandvenue: `21.09.2020, digital Congress.`,
