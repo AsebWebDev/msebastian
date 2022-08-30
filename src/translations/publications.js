@@ -49,13 +49,14 @@ const publications = {
           title: `Soziologie der Mensch-Tier-Beziehung. In Alena Bleicher, Matthias Groß und Marco Sonnberger (Hrsg.): Handbuch Umweltsoziologie. Wiesbaden: Springer VS`,
         },
         {
-          author: `Sebastian, Marcel (2022, i.E.)`,
-          title: `Der Schlachthof als vergeschlechtlichter Raum – männliche Sichtweisen auf die Abwesenheit von Frauen bei der Schlachtung. In Carla Wember, Jana Rückert-John (Hrsg.): Geschlecht und Ernährung: Perspektiven sozialen Wandels. Opladen: Verlag Barbara Budrich.`,
+          author: `Sebastian, Marcel (2023, i.E.)`,
+          title: `Human-Animal Studies. Der ambivalente gesellschaftliche Umgang mit Gewalt an Tieren. In Benkel, Thorsten (Hrsg.): 10 Minuten Soziologie: Gewalt. Bielefeld: Transcript.`,
         },
         {
-          author: `Sebastian, Marcel (2022, i.E.)`,
-          title: `Human-Animal Studies: Kulturelle und institutionelle Rahmungen von Gewalt an Tieren. In Benkel, Thorsten (Hrsg.): 10 Minuten Soziologie: Gewalt. Bielefeld: Transcript.`,
+          author: `Sebastian, Marcel (2023, i.E.)`,
+          title: `Der Schlachthof als vergeschlechtlichter Raum – männliche Sichtweisen auf die Abwesenheit von Frauen bei der Schlachtung. In Carla Wember, Jana Rückert-John (Hrsg.): Geschlecht und Ernährung: Perspektiven sozialen Wandels. Opladen: Verlag Barbara Budrich.`,
         },
+        
         {
           author: `Sebastian, Marcel (2019)`,
           title: `„Subjekt oder Objekt? Ambivalente gesellschaftliche Mensch-Tier-Beziehungen als Resultat kultureller Aushandlungs- und Wandlungsprozesse.“. In: Diehl, Elke/Tuider, Jens (Hrsg.) Haben Tiere Rechte? Schriftenreihe der Bundeszentrale für Poltische Bildung, Bonn: Bundeszentrale für politische Bildung, S. 69-81.`,
@@ -228,12 +229,12 @@ const publications = {
           title: `Soziologie der Mensch-Tier-Beziehung. In Alena Bleicher, Matthias Groß und Marco Sonnberger (Hrsg.): Handbuch Umweltsoziologie. Wiesbaden: Springer VS`,
         },
         {
-          author: `Sebastian, Marcel (2022, forthcoming)`,
+          author: `Sebastian, Marcel (2023, forthcoming)`,
           title: `Der Schlachthof als vergeschlechtlichter Raum – männliche Sichtweisen auf die Abwesenheit von Frauen bei der Schlachtung. In Carla Wember, Jana Rückert-John (Hrsg.): Geschlecht und Ernährung: Perspektiven sozialen Wandels. Opladen: Verlag Barbara Budrich.`,
         },
         {
-          author: `Sebastian, Marcel (2022, forthcoming)`,
-          title: `Human-Animal Studies: Kulturelle und institutionelle Rahmungen von Gewalt an Tieren. In Benkel, Thorsten (Hrsg.): 10 Minuten Soziologie: Gewalt. Bielefeld: Transcript.`,
+          author: `Sebastian, Marcel (2023, forthcoming)`,
+          title: `Human-Animal Studies. Der ambivalente gesellschaftliche Umgang mit Gewalt an Tieren.. In Benkel, Thorsten (Hrsg.): 10 Minuten Soziologie: Gewalt. Bielefeld: Transcript.`,
         },
         {
           author: `Sebastian, Marcel (2019)`,
