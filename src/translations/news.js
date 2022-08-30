@@ -4,6 +4,16 @@ const news = {
       NEWS_TITLE: "Aktuelles",
       ITEMS: [
         {
+          date: `01/09/2022`,
+          title: `Ich habe begonnen, als Postdoc Mitarbeiter an der Professur für Umweltsoziologie mit Schwerpunkt Transformationsforschung and er TU Dortmund zu arbeiten.`,
+          link: 
+        },
+        {
+          date: `04/07/2022`,
+          title: `Meine Dissertation würde für den Deutschen Studienpreis der Körber Stiftung nominiert`,
+          link: "https://koerber-stiftung.de/site/assets/files/20970/2022_nominierte_sozialwissenschaften.pdf",
+        },
+        {
           date: `16/05/2022`,
           title: `Ich habe begonnen, als Research Fellow am Future Matter Project zu arbeiten.`,
           link: "https://futuremattersproject.org/",
@@ -24,22 +34,6 @@ const news = {
           link: "https://link.springer.com/article/10.1007/s10460-021-10272-4",
         },
         {
-          date: `08/11/2021`,
-          title: `Ich wurde für die ZDF-Sendung "Volle Kanne" interviewt. Der Beitrag ist online zu sehen:`,
-          link: "https://www.zdf.de/verbraucher/volle-kanne/volle-kanne-mit-francine-jordi-vom-8-november-2021-100.html",
-        },
-        {
-          date: `12/10/2021`,
-          title: `Der SWR hat einen Radiobeitrag zum Thema "Tierbestattung. Tote Haustiere – Entsorgen oder beerdigen?" veröffentlicht, für den ich interviewt wurde.`,
-          link: "https://www.swr.de/swr2/wissen/tote-haustiere-entsorgen-oder-beerdigen-100.html",
-        },
-        {
-          date: `19/09/2021`,
-          title: `Im Spiegel ist ein Artikel zum Thema "Pferdemisshandlung bei Olympia. Sollte der Leistungssport auf Tiere verzichten?" erschienen, in dem 
-                      Interviewausschnitte mit mit enthalten sind.`,
-          link: "https://www.spiegel.de/sport/reitsport-in-der-diskussion-viele-sagen-es-ist-eine-sauerei-was-die-mit-dem-pferd-anstellt-a-39c30865-7260-4d29-95a2-662695493fdd`,",
-        },
-        {
           date: `02/09/2021`,
           title: `Mein Artikel "The influence of social movements on policy change: delayed success in banning dog slaughter in Germany" wurde in Social Movement Studies veröffentlicht.`,
           link: "https://doi.org/10.1080/14742837.2021.1967126",
@@ -57,8 +51,18 @@ const news = {
       NEWS_TITLE: "News",
       ITEMS: [
         {
+          date: `01/09/2022`,
+          title: `I started working as a Postdoc Researcher at the Professorship for Environmental Sociology with a focus on Transformation Research at the TU Dortmund University of Technology.`,
+          link: 
+        },
+        {
+          date: `04/07/2022`,
+          title: `My Dissertation was nominated for the German Study Award of the Körber Foundation`,
+          link: "https://koerber-stiftung.de/site/assets/files/20970/2022_nominierte_sozialwissenschaften.pdf",
+        },
+        {
           date: `16/05/2022`,
-          title: `I started working as a research fellow at the Future Matter Project.`,
+          title: `I started working as a Research Fellow at the Future Matter Project.`,
           link: "https://futuremattersproject.org/",
         },
         {
