@@ -5,12 +5,17 @@ const cv = {
       ITEMS: [
         
         {
-          date: `Seit 05/2022`,
+          date: `Seit 09/2022`,
+          title: `Postdoc Mitarbeiter an der Professur für Umweltsoziologie mit Schwerpunkt Transformationsforschung an der Technischen Universität Dortmund`,
+          text: ``,
+        },
+        {
+          date: `05/2022 - 08/2022`,
           title: `Research Fellow am Future Matters Project im Forschugnsprojekt "Wirkungspotentiale der Klimabewegung"`,
           text: ``,
         },
         {
-          date: `Seit 03/2022`,
+          date: `03/2022 - 08/2022`,
           title: `Postdoc an der Professur für die Soziologie des Kultur- und Institutionenwandels an der Universität Hamburg`,
           text: ``,
         },
@@ -62,13 +67,19 @@ const cv = {
     CV: {
       CV_TITLE: "Curriculum Vitae",
       ITEMS: [
+        
         {
-          date: `Since 05/2022`,
+          date: `Since 09/2022`,
+          title: `Postdoc researcher at the professorship for environmental sociology with focus on transformation tesearch at the Technical University of Dortmund`,
+          text: ``,
+        },        
+        {
+          date: `05/2022 - 08/2022`,
           title: `Research Fellow at the Future Matters Project in th research project "Impact potential of the climate movement"`,
           text: ``,
         },        
         {
-          date: `Since 03/2022`,
+          date: `03/2022 - 08/2022`,
           title: `Postdoc at the Professorship for the sociology of Cultural Change and Institutional Change`,
           text: ``,
         },
