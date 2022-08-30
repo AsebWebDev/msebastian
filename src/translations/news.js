@@ -31,7 +31,7 @@ const news = {
         {
           date: `08/11/2021`,
           title: `Mein Artikel "Institutional persistence despite cultural change: a historical case study of the re-categorization of dogs in Germany" (gemeinsam mit Birgit Pfau Effinger) wurde in Agriculture and Human Values veröffentlicht.`,
-          link: "https://link.springer.com/article/10.1007/s10460-021-10272-4",
+          link: "https://link.springer.com/article/10.1007/s10460-021-10272-4", 
         },
         {
           date: `02/09/2021`,
