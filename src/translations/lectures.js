@@ -6,11 +6,10 @@ const lectures = {
       // Vorträge auf wissenschaftlichen Tagungen
       LECTURES_1_HEADER: `Vorträge auf wissenschaftlichen Tagungen`,
       LECTURES_1_ITEMS: [
-               
         {
           title: `„Emotional Neutrality as a Work Requirement in the Slaughterhouse" auf der 10. Midterm Conference of ESA-Research Network 11 "Sociology of Emotions"`,
           dateandvenue: `31.08.2022, Universität Hamburg`,
-        }, 
+        },
         {
           title: `„Institutional persistence despite cultural change - A new approach to the explanation of institutional stability" auf der 28. International Conference of Europeanists (Paper zur Präsentation angenommen)`,
           dateandvenue: `01.07.2022, Lissabon, Portugal`,
@@ -108,7 +107,7 @@ const lectures = {
       // Vorträgen auf Einladung wissenschaftlicher Organisationen
       LECTURES_2_HEADER: `Vorträgen auf Einladung wissenschaftlicher Organisationen`,
       LECTURES_2_ITEMS: [
-         {
+        {
           title: `“Der lange Weg zum Verbot des Hundeschlachtens: Institutionelle Persistenz trotz kulturellem Wandel.”, Vortrag im Rahmen der Ringvorlesung Animate Theologies - ein (un-)mögliches Projekt?,`,
           dateandvenue: `29.11.2021, digital.`,
         },
@@ -178,10 +177,10 @@ const lectures = {
       // Presentations at academic conferences
       LECTURES_1_HEADER: `Presentations at academic conferences`,
       LECTURES_1_ITEMS: [
-         {
+        {
           title: `„Emotional Neutrality as a Work Requirement in the Slaughterhouse" at ther 10th Midterm Conference of ESA-Research Network 11 "Sociology of Emotions"`,
           dateandvenue: `31.08.2022, University of Hamburg`,
-        }, 
+        },
         {
           title: `„Institutional persistence despite cultural change - A new approach to the explanation of institutional stability" at the 28th International Conference of Europeanists (paper accepted for presentation)`,
           dateandvenue: `01.07.2022, Lissabon, Portugal`,
@@ -193,6 +192,7 @@ const lectures = {
         {
           title: `„Institutional persistence despite cultural change - A new approach to the explanation of institutional stability on the basis of a case study about food policies“, at the AFHVS/ASFS Cultivating Connections: Exploring Entry Points Into Sustainable Food Systems Conference`,
           dateandvenue: `19.05.2022, Athens, Georgia, USA`,
+        },
         {
           title: `„Mensch-Tier-Beziehungen zwischen Sorge und Kontrolle“ Präsentation during the Ad-Hoc-Group „Die ökologische Gesellschaft unter Spannung: Sorgediskurse im 'Anthropozän'“ at the 40th Congress of Deutsche Gesellschaft für Soziologie,`,
           dateandvenue: `21.09.2020, digital Congress.`,

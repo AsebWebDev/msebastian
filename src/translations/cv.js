@@ -3,7 +3,6 @@ const cv = {
     CV: {
       CV_TITLE: "Curriculum Vitae",
       ITEMS: [
-        
         {
           date: `Seit 09/2022`,
           title: `Postdoc Mitarbeiter an der Professur für Umweltsoziologie mit Schwerpunkt Transformationsforschung an der Technischen Universität Dortmund`,
@@ -39,7 +38,7 @@ const cv = {
           title: `Wissenschaftlicher Mitarbeiter der Universität Hamburg`,
           text: ``,
         },
-        
+
         {
           date: `04/2013 - 05/2016`,
           title: `Promotionsstipendiat der Heinrich-Böll-Stiftung`,
@@ -67,17 +66,16 @@ const cv = {
     CV: {
       CV_TITLE: "Curriculum Vitae",
       ITEMS: [
-        
         {
           date: `Since 09/2022`,
           title: `Postdoc researcher at the professorship for environmental sociology with focus on transformation tesearch at the Technical University of Dortmund`,
           text: ``,
-        },        
+        },
         {
           date: `05/2022 - 08/2022`,
           title: `Research Fellow at the Future Matters Project in th research project "Impact potential of the climate movement"`,
           text: ``,
-        },        
+        },
         {
           date: `03/2022 - 08/2022`,
           title: `Postdoc at the Professorship for the sociology of Cultural Change and Institutional Change`,

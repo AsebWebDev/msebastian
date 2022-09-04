@@ -6,7 +6,7 @@ const news = {
         {
           date: `01/09/2022`,
           title: `Ich habe begonnen, als Postdoc Mitarbeiter an der Professur für Umweltsoziologie mit Schwerpunkt Transformationsforschung and er TU Dortmund zu arbeiten.`,
-          link: 
+          link: ``,
         },
         {
           date: `04/07/2022`,
@@ -31,7 +31,7 @@ const news = {
         {
           date: `08/11/2021`,
           title: `Mein Artikel "Institutional persistence despite cultural change: a historical case study of the re-categorization of dogs in Germany" (gemeinsam mit Birgit Pfau Effinger) wurde in Agriculture and Human Values veröffentlicht.`,
-          link: "https://link.springer.com/article/10.1007/s10460-021-10272-4", 
+          link: "https://link.springer.com/article/10.1007/s10460-021-10272-4",
         },
         {
           date: `02/09/2021`,
@@ -53,7 +53,7 @@ const news = {
         {
           date: `01/09/2022`,
           title: `I started working as a Postdoc Researcher at the Professorship for Environmental Sociology with a focus on Transformation Research at the TU Dortmund University of Technology.`,
-          link: 
+          link: ``,
         },
         {
           date: `04/07/2022`,
