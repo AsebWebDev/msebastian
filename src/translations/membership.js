@@ -4,6 +4,12 @@ const membership = {
       MEMBERSHIP_TITLE: `Mitgliedschaft in wissenschaftlichen Organisationen`,
       ITEMS: [
         {
+          title: `Deutsche Gesellschaft für Soziologie (DGS-Sektionen Land-, Agrar- und Ernährungssoziologie, Umweltsoziologie und Politische Soziologie sowie Arbeitskreis Soziologie der Nachhaltigkeit und Arbeitskreis Gewalt als Problem soziologischer Theorie)`,
+        },
+        {
+          title: `AK Tier-Mensch-Soziologie in der Deutschen Gesellschaft für Soziologie (Sprecher)`,
+        },
+        {
           title: `Transformationskolleg des Norbert-Elias-Center, Europa Universität Flensburg`,
         },
         {
@@ -16,6 +22,9 @@ const membership = {
         {
           title: `Interdisciplinary Centre for European Studies, Europa Universität Flensburg`,
         },
+        {
+          title: `Interdisziplinäre Arbeitsgemeinschaft Mensch-Tier-Beziehung`,
+        },
       ],
     },
   },
@@ -24,17 +33,26 @@ const membership = {
       MEMBERSHIP_TITLE: `Membership in scientific Organizations`,
       ITEMS: [
         {
+          title: `Deutsche Gesellschaft für Soziologie (DGS-Sektionen Land-, Agrar- und Ernährungssoziologie, Umweltsoziologie und Politische Soziologie sowie Arbeitskreis Soziologie der Nachhaltigkeit und Arbeitskreis Gewalt als Problem soziologischer Theorie)`,
+        },
+        {
+          title: `AK Tier-Mensch-Soziologie in der Deutschen Gesellschaft für Soziologie (Sprecher)`,
+        },
+        {
           title: `Transformationskolleg at the Norbert-Elias-Center, Europa Universität Flensburg`,
         },
         {
           title: `Group for Society and Animals Studies, University of Hamburg}`,
         },
         {
-          title: `German Sociological Association, including Sections "Land-, Agrar- und Ernährungssoziologie", "Political Sociology" as well as working groups "Sociology of Sustainabiilty" and "Sociology of Violence"`,
+          title: `German Sociological Association (Sections Sociology of Land, Agriculture and Food, Environmental Sociology and Political Sociology as well as the Sociology of Sustainability working group and the Violence as a Problem of Sociological Theory working group)`,
         },
         { title: `Minding Animals International` },
         {
           title: `Interdisciplinary Centre for European Studies, Europa Universität Flensburg`,
+        },
+        {
+          title: `Interdisziplinäre Arbeitsgemeinschaft Mensch-Tier-Beziehung`,
         },
       ],
     },

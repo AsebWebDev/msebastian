@@ -1,6 +1,10 @@
 const publications = {
   de: {
     PUBLICATIONS: {
+      LINK_TEXT_PART1: `Eine Liste meiner Publikationen finden Sie auf der Homepage der`,
+      LINK_TEXT_PART2: `TU Dortmund`,
+      LINK_TEXT_PART3: `sowie`,
+      LINK_TEXT_PART4: `hier`,
       PUBLICATIONS_TITLE: `Publikationen`,
 
       // Artikel in Fachzeitschriften
@@ -56,7 +60,7 @@ const publications = {
           author: `Sebastian, Marcel (2023, i.E.)`,
           title: `Der Schlachthof als vergeschlechtlichter Raum – männliche Sichtweisen auf die Abwesenheit von Frauen bei der Schlachtung. In Carla Wember, Jana Rückert-John (Hrsg.): Geschlecht und Ernährung: Perspektiven sozialen Wandels. Opladen: Verlag Barbara Budrich.`,
         },
-        
+
         {
           author: `Sebastian, Marcel (2019)`,
           title: `„Subjekt oder Objekt? Ambivalente gesellschaftliche Mensch-Tier-Beziehungen als Resultat kultureller Aushandlungs- und Wandlungsprozesse.“. In: Diehl, Elke/Tuider, Jens (Hrsg.) Haben Tiere Rechte? Schriftenreihe der Bundeszentrale für Poltische Bildung, Bonn: Bundeszentrale für politische Bildung, S. 69-81.`,
@@ -180,6 +184,10 @@ const publications = {
   },
   en: {
     PUBLICATIONS: {
+      LINK_TEXT_PART1: `You can find a list of my publications on the homepage of the`,
+      LINK_TEXT_PART2: `TU Dortmund Univerity`,
+      LINK_TEXT_PART3: `and`,
+      LINK_TEXT_PART4: `here`,
       PUBLICATIONS_TITLE: `Publications`,
 
       // Journals Articles

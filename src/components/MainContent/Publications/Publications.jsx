@@ -16,66 +16,17 @@ export default function Publications() {
         {dict[lang].PUBLICATIONS.PUBLICATIONS_TITLE}
       </Header>
 
-      {/* Artikel in Fachzeitschriften */}
-
-      <Header color="blue" inverted={inverted} as="h2">
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_1_HEADER}
+      <Header color="black" inverted={inverted} as="h2">
+        {dict[lang].PUBLICATIONS.LINK_TEXT_PART1}{" "}
+        <a href="https://us.sowi.tu-dortmund.de/professur/team/dr-marcel-sebastian/%5D">
+          {dict[lang].PUBLICATIONS.LINK_TEXT_PART2}
+        </a>{" "}
+        {dict[lang].PUBLICATIONS.LINK_TEXT_PART3}{" "}
+        <a href="https://scholar.google.de/citations?user=nqLWm3EAAAAJ&hl=de%5D">
+          {dict[lang].PUBLICATIONS.LINK_TEXT_PART4}{" "}
+        </a>
+        .
       </Header>
-      <List inverted={inverted} divided relaxed>
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_1_ITEMS.map((publication, i) => (
-          <ListItem
-            key={i} // TODO: add proper key to avoid using index
-            header={publication.author}
-            link={publication.link}
-            metaText={publication.title}
-          />
-        ))}
-      </List>
-
-      {/* Artikel in wissenschaftlichen Sammelbänden */}
-      <Header color="blue" inverted={inverted} as="h2">
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_3_HEADER}
-      </Header>
-      <List inverted={inverted} divided relaxed>
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_3_ITEMS.map((publication, i) => (
-          <ListItem
-            key={i} // TODO: add proper key to avoid using index
-            header={publication.author}
-            link={publication.link}
-            metaText={publication.title}
-          />
-        ))}
-      </List>
-
-      {/* Wissenschaftsjournalistische und andere Artikel */}
-      <Header color="blue" inverted={inverted} as="h2">
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_4_HEADER}
-      </Header>
-      <List inverted={inverted} divided relaxed>
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_4_ITEMS.map((publication, i) => (
-          <ListItem
-            key={i} // TODO: add proper key to avoid using index
-            header={publication.author}
-            link={publication.link}
-            metaText={publication.title}
-          />
-        ))}
-      </List>
-
-      {/* Tagungsberichte und Rezensionen */}
-      <Header color="blue" inverted={inverted} as="h2">
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_5_HEADER}
-      </Header>
-      <List inverted={inverted} divided relaxed>
-        {dict[lang].PUBLICATIONS.PUBLICATIONS_5_ITEMS.map((publication, i) => (
-          <ListItem
-            key={i} // TODO: add proper key to avoid using index
-            header={publication.author}
-            link={publication.link}
-            metaText={publication.title}
-          />
-        ))}
-      </List>
     </Container>
   );
 }
