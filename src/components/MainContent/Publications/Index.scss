@@ -10,6 +10,15 @@
         background-position-y: -235px;
         display: flex;
         flex: 1;
+        min-height: 100vh;
+
+        a {
+            color: $link-color !important;
+          }
+        
+          a:hover {
+            color: $link-color-hover !important;
+          }
     }
 }
 

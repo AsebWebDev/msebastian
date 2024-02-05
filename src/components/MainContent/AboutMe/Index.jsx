@@ -1,8 +1,8 @@
 import React from "react";
 import { Grid } from "semantic-ui-react";
-import AboutMe from './AboutMe'
-import CV from './CV'
-import News from './News'
+import AboutMe from "./AboutMe";
+import CV from "./CV";
+import RightPane from "./RightPane";
 import "./Index.scss";
 
 export default function Index() {
@@ -16,7 +16,7 @@ export default function Index() {
           <CV />
         </Grid.Column>
         <Grid.Column width={4}>
-          <News />
+          <RightPane />
         </Grid.Column>
       </Grid.Row>
     </Grid>

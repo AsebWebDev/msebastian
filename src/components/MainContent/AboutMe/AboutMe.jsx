@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import t from "../../../translations";
 import { Card, Image } from "semantic-ui-react";
-import { LanguageContext } from "../../../App";;
+import { LanguageContext } from "../../../App";
 
 export default function AboutMe() {
   const lang = useContext(LanguageContext);
